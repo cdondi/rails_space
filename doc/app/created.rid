@@ -1,0 +1,9 @@
+Sat, 03 Oct 2015 19:06:09 -0500
+README.rdoc	Wed, 30 Sep 2015 20:30:03 -0500
+app/controllers/application_controller.rb	Wed, 30 Sep 2015 20:30:03 -0500
+app/controllers/site_controller.rb	Wed, 30 Sep 2015 23:10:13 -0500
+app/controllers/user_controller.rb	Sat, 03 Oct 2015 18:52:52 -0500
+app/helpers/application_helper.rb	Sat, 03 Oct 2015 18:59:54 -0500
+app/helpers/site_helper.rb	Wed, 30 Sep 2015 21:00:45 -0500
+app/helpers/user_helper.rb	Sat, 03 Oct 2015 13:32:22 -0500
+app/models/user.rb	Sat, 03 Oct 2015 16:35:10 -0500

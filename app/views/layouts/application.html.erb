@@ -1,14 +1,41 @@
-<!DOCTYPE html>
+<DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-  <title>RailsSpace</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+  <title><%= @title %></title>
+  <%= stylesheet_link_tag "site" %>
 </head>
 <body>
+<div id="whole_page">
+  <div id="header">RailSpace</div>
 
-<%= yield %>
+  <div id="nav">
+    <span style="float: right">
+      <% if logged_in?  -%>
+        <%= nav_link "Hub", "user", "index" %> |
+        <%= nav_link "Logout", "user", "logout" %>
+      <% else %>
+        <%= nav_link "Register", "user", "register" %> |
+        <%= nav_link "Login", "user", "login" %>
+      <% end %>
+    </span>
+    <%= nav_link "Home",     "site" %> |
+    <%= nav_link "About Us", "site", "about" %> |
+    <%= nav_link "Help",     "site", "help" %>
+  </div>
 
+  <div id="content">
+    <% if flash[:notice] -%>
+        <div id="notice">
+          <%= flash[:notice] %>
+        </div>
+    <% end -%>
+
+    <%= yield %>
+  </div>
+
+  <% if ENV["RAILS_ENV"] == "development" %>
+      <%= debug(params) %>
+  <% end %>
+</div>
 </body>
-</html>
+</html>s
