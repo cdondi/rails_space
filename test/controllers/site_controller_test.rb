@@ -23,7 +23,7 @@ class SiteControllerTest < ActionController::TestCase
     assert_template "about"
   end
 
-  test "should get help" do
+  test "should_get_help" do
     get :help
     title = assigns(:title)
     assert_equal "RailsSpace Help", title
@@ -32,7 +32,7 @@ class SiteControllerTest < ActionController::TestCase
   end
 
   # Test the navigation menu before login.
-  test "navigation not logged in" do
+  test "navigation_not_logged_in" do
     get :index
     assert_select "a", :content => /Register/, :attributes => { :href => "/user/register" }
     assert_select "a", :content => /Login/, :attributes => { :href => "/user/login" }

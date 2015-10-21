@@ -3,11 +3,35 @@ require 'digest/sha1'
 class UserController < ApplicationController
   include ApplicationHelper
 
-  before_filter :protect, :only => :index
+  before_filter :protect, :only => [:index, :edit]
 
   def index
-    #@user = User.find(session[:user_id])
     @title = "RailsSpace User Hub"
+    @user = User.find(session[:user_id])
+  end
+
+  # Edit the user's basic info.
+  def edit
+    @title = "Edit basic info"
+    @user = User.find(session[:user_id])
+
+    if param_posted?(:user)
+      attribute = params[:attribute]
+      case attribute
+        when "email"
+          try_to_update @user, attribute
+        when "password"
+          # Handle password submission
+          if @user.correct_password?(params)
+            try_to_update @user, attribute
+          else
+            @user.password_errors(params)
+          end
+      end
+    end
+
+    # For security purposes, never fill in password fields
+    @user.clear_password!
   end
 
   def register
@@ -71,6 +95,14 @@ class UserController < ApplicationController
       redirect_to redirect_url
     else
       redirect_to action: "index"
+    end
+  end
+
+  # Try to update the user, redirect if successful.
+  def try_to_update(user, attribute)
+    if user.update_attributes(params[:user])
+      flash[:notice] = "User #{attribute} updated."
+      redirect_to :action => "index"
     end
   end
 

@@ -22,35 +22,19 @@ class UserControllerTest < ActionController::TestCase
   #  assert_response :success
   #end
 
-  test "registration page" do
+  test "registration_page" do
     get :register
     title = assigns(:title)
     assert_equal "Register", title
     assert_response :success
     assert_template "register"
-
-    # Test the form and all its tags
-    assert_select "form", :attributes => { :action => "/user/register", :method => "post" }
-
-    assert_select "input", :attributes => {
-                          :name => "user[screen_name]",
-                          :type => "text",
-                          :size => User::SCREEN_NAME_SIZE,
-                          :maxlength => User::SCREEN_NAME_MAX_LENGTH }
-
-    assert_select "input", :attributes => {
-                         :name => "user[email]",
-                         :type => "text",
-                         :size => User::EMAIL_SIZE,
-                         :maxlength => User::EMAIL_MAX_LENGTH }
-
-    assert_select "input", :attributes => {
-                         :name => "user[password]",
-                         :type => "password",
-                         :size => User::PASSWORD_SIZE,
-                         :maxlength => User::PASSWORD_MAX_LENGTH }
-
-    assert_select "input", :attributes => { :type => "submit", :value => "Register!" }
+    # Test the form and all its tags.
+    assert_form_tag "/user/register"
+    assert_screen_name_field
+    assert_email_field
+    assert_password_field
+    assert_password_field "password_confirmation"
+    assert_submit_button "Register!"
   end
 
   test "registration success" do
@@ -187,7 +171,6 @@ class UserControllerTest < ActionController::TestCase
     assert_nil cookies[:authorization_token]
   end
 
-
   # Test the navigation menu after login.
   test "navigation logged in" do
     authorize @valid_user
@@ -198,7 +181,7 @@ class UserControllerTest < ActionController::TestCase
   end
 
   # Test index page for authorized user
-  test "index authorized" do
+  test "index_authorized" do
     authorize @valid_user
     get :index
     assert_response :success
@@ -214,6 +197,40 @@ class UserControllerTest < ActionController::TestCase
  # Test forward back to protected page after registration
   test "register_friendly_url_forwarding" do
     friendly_url_forwarding_aux(:register, :index, new_user)
+  end
+
+  # Test the edit page.
+  test "edit_page" do
+    authorize @valid_user
+    get :edit
+    title = assigns(:title)
+    assert_equal "Edit basic info", title
+    assert_response :success
+    assert_template "edit"
+    # Test the form and all its tags.
+    assert_form_tag "/user/edit"
+    assert_email_field @valid_user.email
+    assert_password_field "current_password"
+    assert_password_field
+    assert_password_field "password_confirmation"
+    assert_submit_button "Update"
+  end
+
+  # Assert that the email field has the correct HTML.
+  def assert_email_field(email = nil, options = {})
+    assert_input_field("user[email]", email, "text", User::EMAIL_SIZE, User::EMAIL_MAX_LENGTH, options)
+  end
+
+  # Assert that the password field has the correct HTML.
+  def assert_password_field(password_field_name = "password", options = {})
+    # We never want a password to appear pre-filled in a form.
+    blank = nil
+    assert_input_field("user[#{password_field_name}]", blank, "password", User::PASSWORD_SIZE, User::PASSWORD_MAX_LENGTH, options)
+  end
+
+  # Assert that the screen name field has the correct HTML.
+  def assert_screen_name_field(screen_name = nil, options = {})
+    assert_input_field("user[screen_name]", screen_name, "text", User::SCREEN_NAME_SIZE, User::SCREEN_NAME_MAX_LENGTH, options)
   end
 
   def friendly_url_forwarding_aux(test_page, protected_page, user)

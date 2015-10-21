@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
   attr_accessor :remember_me
+  attr_accessor :current_password
+  attr_accessor :password_confirmation
 
   # Max and min lengths for all fields
   SCREEN_NAME_MIN_LENGTH = 4
@@ -64,6 +66,25 @@ class User < ActiveRecord::Base
 
   def clear_password!
     self.password = nil
+    self.password_confirmation = nil
+    self.current_password = nil
+  end
+
+  # Return true if the password from params is correct.
+  def correct_password?(params)
+    current_password = params[:user][:current_password]
+    password == current_password
+  end
+
+  # Generate messages for password errors.
+  def password_errors(params)
+    # Use User model's valid? method to generate error messages
+    # for a password mismatch (if any).
+    self.password = params[:user][:password]
+    self.password_confirmation = params[:user][:password_confirmation]
+    valid?
+    # The current password is incorrect, so add an error message.
+    errors.add(:current_password, "is incorrect")
   end
 
   # Generate a unique identifier for a user

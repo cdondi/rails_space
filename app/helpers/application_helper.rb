@@ -18,4 +18,9 @@ module ApplicationHelper
       user.login!(session) if user
     end
   end
+
+  # Return true if a parameter corresponding to the given symbol was posted.
+  def param_posted?(symbol)
+    request.post? and params[symbol]
+  end
 end
