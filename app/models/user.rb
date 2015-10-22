@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_one :spec
+  has_one :faq
   attr_accessor :remember_me
   attr_accessor :current_password
   attr_accessor :password_confirmation

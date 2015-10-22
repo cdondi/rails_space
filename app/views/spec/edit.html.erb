@@ -1,0 +1,59 @@
+<%= form_for :spec do |form| %>
+    <fieldset>
+      <legend><%= @title %></legend>
+      <div class="fieldWithErrors">
+        <% if @spec && @spec.errors.any? %>
+            <ul>
+              <% @spec.errors.full_messages.each do |msg| %>
+                  <li><%= msg %></li>
+              <% end %>
+            </ul>
+        <% end %>
+      </div>
+
+      <p>
+        <label for="first_name">First name:</label>
+        <%= form.text_field :first_name, :size => User::EMAIL_SIZE, :maxlength => User::EMAIL_MAX_LENGTH %>
+      </p>
+
+      <p>
+        <label for="last_name">Last name:</label>
+        <%= form.text_field :last_name, :size => User::EMAIL_SIZE, :maxlength => User::EMAIL_MAX_LENGTH %>
+      </p>
+
+      <div class="form_row">
+        <label for="gender">Gender:</label>
+        <%= radio_button :spec, :gender, "Male" %> Male
+        <%= radio_button :spec, :gender, "Female" %> Female
+      </div>
+      <div class="form_row">
+        <label for="birthdate">Birthdate:</label>
+        <%= date_select :spec, :birthdate, :start_year => Spec::START_YEAR,
+                        :end_year => Time.now.year,
+                        :include_blank => true,
+                        :order => [:month, :day, :year] %>
+      </div>
+
+      <p>
+        <label for="occupation">Occupation:</label>
+        <%= form.text_field :occupation, :size => User::EMAIL_SIZE, :maxlength => User::EMAIL_MAX_LENGTH %>
+      </p>
+
+      <p>
+        <label for="city">City:</label>
+        <%= form.text_field :city, :size => User::EMAIL_SIZE, :maxlength => User::EMAIL_MAX_LENGTH %>
+      </p>
+
+      <p>
+        <label for="occupation">State:</label>
+        <%= form.text_field :state, :size => User::EMAIL_SIZE, :maxlength => User::EMAIL_MAX_LENGTH %>
+      </p>
+
+      <p>
+        <label for="occupation">Zip Code:</label>
+        <%= form.text_field :zip_code, :size => User::EMAIL_SIZE, :maxlength => User::EMAIL_MAX_LENGTH %>
+      </p>
+
+      <%= submit_tag "Update", :class => "submit" %>
+    </fieldset>
+<% end %>

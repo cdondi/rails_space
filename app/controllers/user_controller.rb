@@ -2,12 +2,14 @@ require 'digest/sha1'
 
 class UserController < ApplicationController
   include ApplicationHelper
-
+  helper :profile
   before_filter :protect, :only => [:index, :edit]
 
   def index
     @title = "RailsSpace User Hub"
     @user = User.find(session[:user_id])
+    @spec = @user.spec ||= Spec.new
+    @faq = @user.faq ||= Faq.new
   end
 
   # Edit the user's basic info.
@@ -106,13 +108,5 @@ class UserController < ApplicationController
     end
   end
 
-  # Protect a page from unauthorized access
-  def protect
-    unless logged_in?
-      session[:protected_page] = request.url
-      flash[:notice] = "Please login first"
-      redirect_to :action => "login"
-      return false
-    end
-  end
+
 end

@@ -1,5 +1,19 @@
 Rails.application.routes.draw do
-  get 'user/index'
+  get 'faq/index'
+
+  get 'faq/edit'
+
+  get 'spec/index'
+
+  get 'spec/edit'
+
+  #get 'profile/:screen_name', :controller => 'profile', :action => 'show'
+
+  # Install the default routes as the lowest priority.
+  #map.connect ':controller/:action/:id'
+
+  get 'profile/index'
+  get 'user/index', as: :hub
   get 'user/register'
   get 'user/login'
   get 'user/logout'
@@ -21,9 +35,13 @@ Rails.application.routes.draw do
   post 'site/help'
   post 'user/index'
   post 'user/edit'
+  post 'spec/edit'
+  post 'faq/edit'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
+
+  get 'profile/:screen_name' => 'profile#show', as: :profile
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

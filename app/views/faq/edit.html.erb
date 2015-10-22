@@ -1,0 +1,22 @@
+<h1>Frequently Asked Questions</h1>
+<p>Please answer some basic questions about yourself.</p>
+<%= form_for :faq do |form| %>
+    <fieldset>
+      <legend>Update Your FAQ</legend>
+
+      <div class="fieldWithErrors">
+        <% if @faq && @faq.errors.any? %>
+            <ul>
+              <% @faq.errors.full_messages.each do |msg| %>
+                  <li><%= msg %></li>
+              <% end %>
+            </ul>
+        <% end %>
+      </div>
+
+      <%= render :partial => "answer_text_area", :collection => Faq::QUESTIONS, :locals => { :form => form } %>
+      <br clear="all" />
+      <%= submit_tag "Update All", :class => "submit" %>
+    </fieldset>
+<% end %>
+

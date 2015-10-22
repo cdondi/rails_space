@@ -263,8 +263,4 @@ class UserControllerTest < ActionController::TestCase
     post :register, user: new_user
   end
 
-  # Authorize a user
-  def authorize(user)
-    @request.session[:user_id] = user.id
-  end
 end

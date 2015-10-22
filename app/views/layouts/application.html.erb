@@ -3,6 +3,7 @@
 <head>
   <title><%= @title %></title>
   <%= stylesheet_link_tag "site" %>
+  <%= stylesheet_link_tag "profile" %>
 </head>
 <body>
 <div id="whole_page">
@@ -30,7 +31,8 @@
         </div>
     <% end -%>
 
-    <%= yield %>
+    <%= yield  %>
+    <br clear="all" />
   </div>
 
   <% if ENV["RAILS_ENV"] == "development" %>

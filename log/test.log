@@ -27050,3 +27050,130 @@ Processing by UserController#register as HTML
   Rendered user/register.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 0.5ms)
   [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `specs`[0m
+  [1m[35mFixture Insert (10.2ms)[0m  INSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-10-21 19:36:56', '2015-10-21 19:36:56', 46361080)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-10-21 19:36:56', '2015-10-21 19:36:56', 842872504)[0m
+  [1m[35mFixture Insert (9.4ms)[0m  INSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-10-21 19:36:56', '2015-10-21 19:36:56', 767896646)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-10-21 19:36:56', '2015-10-21 19:36:56')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-10-21 19:36:56', '2015-10-21 19:36:56')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-10-21 19:36:56', '2015-10-21 19:36:56')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+-------------------------------------
+SpecControllerTest: test_edit_success
+-------------------------------------
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]]
+  [1m[36mSpec Load (0.4ms)[0m  [1mSELECT  `specs`.* FROM `specs` WHERE `specs`.`id` = ? LIMIT 1[0m  [["id", 46361080]]
+Processing by SpecController#edit as HTML
+  Parameters: {"spec"=>{"first_name"=>"new first name", "last_name"=>"new last name", "gender"=>"Male", "occupation"=>"new job", "zip_code"=>"91125"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]]
+  [1m[36mSpec Load (0.4ms)[0m  [1mSELECT  `specs`.* FROM `specs` WHERE `specs`.`user_id` = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `specs` SET `first_name` = ?, `last_name` = ?, `occupation` = ?, `updated_at` = ? WHERE `specs`.`id` = ?[0m  [["first_name", "new first name"], ["last_name", "new last name"], ["occupation", "new job"], ["updated_at", "2015-10-21 19:36:57"], ["id", 46361080]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/user/index
+Completed 302 Found in 120ms (ActiveRecord: 1.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSpec Load (0.1ms)[0m  SELECT  `specs`.* FROM `specs` WHERE `specs`.`user_id` = ? LIMIT 1  [["user_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `specs`[0m
+  [1m[35mFixture Insert (13.3ms)[0m  INSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-10-21 19:38:58', '2015-10-21 19:38:58', 46361080)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-10-21 19:38:58', '2015-10-21 19:38:58', 842872504)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-10-21 19:38:58', '2015-10-21 19:38:58', 767896646)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-10-21 19:38:58', '2015-10-21 19:38:58')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-10-21 19:38:58', '2015-10-21 19:38:58')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-10-21 19:38:58', '2015-10-21 19:38:58')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+------------------------------
+SpecTest: test_spec_invalidity
+------------------------------
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+----------------------------
+SpecTest: test_spec_validity
+----------------------------
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+--------------------
+SpecTest: test_blank
+--------------------
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `specs`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-10-21 19:39:52', '2015-10-21 19:39:52', 46361080)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-10-21 19:39:52', '2015-10-21 19:39:52', 842872504)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-10-21 19:39:52', '2015-10-21 19:39:52', 767896646)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-10-21 19:39:52', '2015-10-21 19:39:52')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-10-21 19:39:52', '2015-10-21 19:39:52')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-10-21 19:39:52', '2015-10-21 19:39:52')
+  [1m[36m (17.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+--------------------
+SpecTest: test_blank
+--------------------
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSpec Load (0.2ms)[0m  SELECT  `specs`.* FROM `specs` WHERE `specs`.`id` = ? LIMIT 1  [["id", 46361080]]
+  [1m[36mSpec Load (0.1ms)[0m  [1mSELECT  `specs`.* FROM `specs` WHERE `specs`.`id` = ? LIMIT 1[0m  [["id", 767896646]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `specs` (`user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?)[0m  [["user_id", 0], ["created_at", "2015-10-21 19:39:52"], ["updated_at", "2015-10-21 19:39:52"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+----------------------------
+SpecTest: test_spec_validity
+----------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 2]]
+  [1m[36mSpec Load (0.1ms)[0m  [1mSELECT  `specs`.* FROM `specs` WHERE `specs`.`id` = ? LIMIT 1[0m  [["id", 46361080]]
+  [1m[35mSpec Load (0.1ms)[0m  SELECT  `specs`.* FROM `specs` WHERE `specs`.`id` = ? LIMIT 1  [["id", 767896646]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+------------------------------
+SpecTest: test_spec_invalidity
+------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 2]]
+  [1m[36mSpec Load (0.1ms)[0m  [1mSELECT  `specs`.* FROM `specs` WHERE `specs`.`id` = ? LIMIT 1[0m  [["id", 46361080]]
+  [1m[35mSpec Load (0.1ms)[0m  SELECT  `specs`.* FROM `specs` WHERE `specs`.`id` = ? LIMIT 1  [["id", 767896646]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-10-22 19:56:26', '2015-10-22 19:56:26', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `specs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-10-22 19:56:26', '2015-10-22 19:56:26', 46361080)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-10-22 19:56:26', '2015-10-22 19:56:26', 842872504)[0m
+  [1m[35mFixture Insert (6.4ms)[0m  INSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-10-22 19:56:26', '2015-10-22 19:56:26', 767896646)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-10-22 19:56:26', '2015-10-22 19:56:26')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-10-22 19:56:26', '2015-10-22 19:56:26')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-10-22 19:56:26', '2015-10-22 19:56:26')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+-------------------------
+FaqTest: test_max_lengths
+-------------------------
+  [1m[35mFaq Load (0.4ms)[0m  SELECT  `faqs`.* FROM `faqs` WHERE `faqs`.`id` = ? LIMIT 1  [["id", 847123571]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
