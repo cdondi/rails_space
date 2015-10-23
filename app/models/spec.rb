@@ -23,4 +23,15 @@ class Spec < ActiveRecord::Base
     state_zip = [state, zip_code].join(" ")
     state_zip.empty? ? [city, state_zip].join(" ") : [city, state_zip].join(", ")
   end
+
+  def age
+    return if birthdate.nil?
+    today = Date.today
+    if (today.month > birthdate.month) or (today.month == birthdate.month and today.day >= birthdate.day)
+      # Birthday has already happened this year
+      today.year - birthdate.year
+    else
+      today.year - birthdate.year - 1
+    end
+  end
 end

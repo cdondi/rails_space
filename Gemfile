@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# provides pagination functionality for large result sets
+gem 'will_paginate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 # Use mysql as the database for Active Record

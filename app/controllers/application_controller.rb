@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
 
-
   include ApplicationHelper
   before_filter :check_authorization
 

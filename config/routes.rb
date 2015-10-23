@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'community/index'
+
+  get 'community/browse'
+
+  get 'community/search'
+
   get 'faq/index'
 
   get 'faq/edit'
@@ -42,6 +48,7 @@ Rails.application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
 
   get 'profile/:screen_name' => 'profile#show', as: :profile
+  get 'community/index/:id' => "community#index"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

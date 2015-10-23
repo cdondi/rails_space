@@ -93,4 +93,9 @@ class User < ActiveRecord::Base
   def unique_identifier
     Digest::SHA1.hexdigest("#{screen_name}:#{password}")
   end
+
+  # return user's full name
+  def name
+    spec.full_name.presence || screen_name
+  end
 end

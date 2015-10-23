@@ -2,7 +2,9 @@ module ApplicationHelper
 
   # Return a link for use in layout navigation
   def nav_link(text, controller, action="index")
-    return link_to_unless_current text, :controller => controller, :action => action
+    return link_to_unless_current text, :id => nil,
+                                        :controller => controller,
+                                        :action => action
   end
 
   def logged_in?
