@@ -5,6 +5,10 @@ class User < ActiveRecord::Base
   attr_accessor :current_password
   attr_accessor :password_confirmation
 
+  searchable do
+    text :screen_name
+  end
+
   # Max and min lengths for all fields
   SCREEN_NAME_MIN_LENGTH = 4
   SCREEN_NAME_MAX_LENGTH = 20

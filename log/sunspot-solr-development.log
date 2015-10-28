@@ -1,0 +1,1188 @@
+Oct 27, 2015 9:34:45 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+Oct 27, 2015 9:34:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Oct 27, 2015 9:34:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /Users/cdondi/Documents/rails code/tutorial/rails_space/solr
+Oct 27, 2015 9:34:45 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/solr.xml
+Oct 27, 2015 9:34:45 PM org.apache.solr.core.CoreContainer <init>
+INFO: New CoreContainer 346224929
+Oct 27, 2015 9:34:45 PM org.apache.solr.core.CoreContainer load
+INFO: Loading CoreContainer using Solr Home: '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/'
+Oct 27, 2015 9:34:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/'
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+Oct 27, 2015 9:34:46 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+Oct 27, 2015 9:34:46 PM org.apache.solr.client.solrj.impl.HttpClientUtil createClient
+INFO: Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CoreContainer load
+INFO: Registering Log Listener
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'default' using instanceDir: /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/.
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'development' using instanceDir: /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/.
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'test' using instanceDir: /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/.
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./'
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./'
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./'
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_41
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_41
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_41
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=sunspot
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=sunspot
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=sunspot
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is text
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is text
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is text
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Oct 27, 2015 9:34:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore <init>
+INFO: [development] Opening new SolrCore at /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./, dataDir=/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./development/data/
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore <init>
+INFO: [default] Opening new SolrCore at /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./, dataDir=/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./default/data/
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: default
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore <init>
+INFO: [test] Opening new SolrCore at /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./, dataDir=/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./test/data/
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: test
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: development
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./default/data forceNew: false
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./default/data/index/
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore initIndex
+WARNING: [default] Solr index directory '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./default/data/index' doesn't exist. Creating new index...
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./development/data forceNew: false
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./test/data forceNew: false
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./development/data/index/
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./test/data/index/
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore initIndex
+WARNING: [development] Solr index directory '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./development/data/index' doesn't exist. Creating new index...
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.SolrCore initIndex
+WARNING: [test] Solr index directory '/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./test/data/index' doesn't exist. Creating new index...
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./default/data/index forceNew: false
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./development/data/index forceNew: false
+Oct 27, 2015 9:34:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/cdondi/Documents/rails code/tutorial/rails_space/solr/./test/data/index forceNew: false
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/test/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49020525; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@2498b115; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1[segments_1]
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1[segments_1]
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1[segments_1]
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /query: solr.SearchHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /query: solr.SearchHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /get: solr.RealTimeGetHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /get: solr.RealTimeGetHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /query: solr.SearchHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /get: solr.RealTimeGetHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+Oct 27, 2015 9:34:47 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@7815cb17 main
+Oct 27, 2015 9:34:47 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@35c8f370 main
+Oct 27, 2015 9:34:47 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2e87cb0b main
+Oct 27, 2015 9:34:47 PM org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: if uncommited for 15000ms; 
+Oct 27, 2015 9:34:47 PM org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: if uncommited for 15000ms; 
+Oct 27, 2015 9:34:47 PM org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: if uncommited for 15000ms; 
+Oct 27, 2015 9:34:47 PM org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+Oct 27, 2015 9:34:47 PM org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Oct 27, 2015 9:34:47 PM org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: default
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: default
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: default
+Oct 27, 2015 9:34:47 PM org.apache.solr.spelling.DirectSolrSpellChecker init
+INFO: init: {name=example,field=title_text,buildOnCommit=true,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+Oct 27, 2015 9:34:47 PM org.apache.solr.spelling.DirectSolrSpellChecker init
+INFO: init: {name=example,field=title_text,buildOnCommit=true,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+Oct 27, 2015 9:34:47 PM org.apache.solr.spelling.DirectSolrSpellChecker init
+INFO: init: {name=example,field=title_text,buildOnCommit=true,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: example
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: example
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: example
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+Oct 27, 2015 9:34:47 PM org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [test] Registered new searcher Searcher@35c8f370 main{StandardDirectoryReader(segments_1:1)}
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: test
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@2e87cb0b main{StandardDirectoryReader(segments_1:1)}
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: default
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@7815cb17 main{StandardDirectoryReader(segments_1:1)}
+Oct 27, 2015 9:34:47 PM org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: development
+Oct 27, 2015 9:34:47 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/Users/cdondi/.rvm/gems/ruby-2.2.3/gems/sunspot_solr-2.2.0/solr
+Oct 27, 2015 9:34:47 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+Oct 27, 2015 9:47:01 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Da&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=48 
+Oct 27, 2015 9:47:04 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Da&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=2 
+Oct 27, 2015 9:47:09 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Da&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 9:47:55 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Da&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 9:48:38 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Da&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 9:50:16 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Da&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 9:52:50 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 9:54:29 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+Oct 27, 2015 9:54:29 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1[segments_1]
+Oct 27, 2015 9:54:29 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1ecf33cc realtime
+Oct 27, 2015 9:54:29 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Faq (-1516241808066084864)} 0 135
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Faq 1 (1516241808380657664), Faq 2 (1516241808400580608), Faq 3 (1516241808401629184)]} 0 23
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 9:54:30 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2,filenames=[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, segments_2, _0.nvd, _0.fdx, _0.fdt, _0_Lucene41_0.pos, _0.nvm, _0.fnm]
+Oct 27, 2015 9:54:30 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 2[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, segments_2, _0.nvd, _0.fdx, _0.fdt, _0_Lucene41_0.pos, _0.nvm, _0.fnm]
+Oct 27, 2015 9:54:30 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2cc60fc2 main
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 9:54:30 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 9:54:30 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 9:54:30 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@2cc60fc2 main{StandardDirectoryReader(segments_2:3:nrt _0(4.2):C3)}
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 100
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Spec (-1516241808513826816)} 0 7
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 1 (1516241808550526976), Spec 2 (1516241808553672704), Spec 3 (1516241808554721280), Spec 4 (1516241808555769856), Spec 5 (1516241808556818432), Spec 6 (1516241808556818433), Spec 7 (1516241808557867008), Spec 8 (1516241808558915584), Spec 9 (1516241808559964160), Spec 10 (1516241808561012736), ... (50 adds)]} 0 39
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 51 (1516241808657481728), Spec 52 (1516241808658530304), Spec 53 (1516241808659578880), Spec 54 (1516241808659578881), Spec 55 (1516241808660627456), Spec 56 (1516241808660627457), Spec 57 (1516241808661676032), Spec 58 (1516241808661676033), Spec 59 (1516241808662724608), Spec 60 (1516241808662724609), ... (50 adds)]} 0 23
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 101 (1516241808700473344), Spec 102 (1516241808700473345), Spec 103 (1516241808701521920), Spec 104 (1516241808701521921), Spec 105 (1516241808702570496), Spec 106 (1516241808702570497), Spec 107 (1516241808703619072), Spec 108 (1516241808703619073), Spec 109 (1516241808703619074), Spec 110 (1516241808704667648), ... (50 adds)]} 0 20
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 151 (1516241808748707840), Spec 152 (1516241808748707841), Spec 153 (1516241808749756416), Spec 154 (1516241808749756417), Spec 155 (1516241808749756418), Spec 156 (1516241808750804992), Spec 157 (1516241808750804993), Spec 158 (1516241808750804994), Spec 159 (1516241808750804995), Spec 160 (1516241808751853568), ... (50 adds)]} 0 15
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 201 (1516241808783310848), Spec 202 (1516241808784359424), Spec 203 (1516241808784359425), Spec 204 (1516241808784359426), Spec 205 (1516241808785408000), Spec 206 (1516241808785408001), Spec 207 (1516241808785408002), Spec 208 (1516241808785408003), Spec 209 (1516241808786456576), Spec 210 (1516241808786456577), ... (50 adds)]} 0 14
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 251 (1516241808816865280), Spec 252 (1516241808817913856), Spec 253 (1516241808817913857), Spec 254 (1516241808817913858), Spec 255 (1516241808818962432), Spec 256 (1516241808818962433), Spec 257 (1516241808818962434), Spec 258 (1516241808818962435), Spec 259 (1516241808820011008), Spec 260 (1516241808820011009), ... (50 adds)]} 0 12
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 301 (1516241808845176832), Spec 302 (1516241808846225408), Spec 303 (1516241808846225409), Spec 304 (1516241808846225410), Spec 305 (1516241808846225411), Spec 306 (1516241808846225412), Spec 307 (1516241808847273984), Spec 308 (1516241808847273985), Spec 309 (1516241808847273986), Spec 310 (1516241808847273987), ... (50 adds)]} 0 9
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 351 (1516241808867196928), Spec 352 (1516241808868245504), Spec 353 (1516241808868245505), Spec 354 (1516241808868245506), Spec 355 (1516241808868245507), Spec 356 (1516241808868245508), Spec 357 (1516241808869294080), Spec 358 (1516241808869294081), Spec 359 (1516241808869294082), Spec 360 (1516241808869294083), ... (50 adds)]} 0 9
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 401 (1516241808890265600), Spec 402 (1516241808890265601), Spec 403 (1516241808890265602), Spec 404 (1516241808891314176), Spec 405 (1516241808891314177), Spec 406 (1516241808891314178), Spec 407 (1516241808891314179), Spec 408 (1516241808891314180), Spec 409 (1516241808892362752), Spec 410 (1516241808892362753), ... (50 adds)]} 0 9
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 451 (1516241808912285696), Spec 452 (1516241808912285697), Spec 453 (1516241808912285698), Spec 454 (1516241808912285699), Spec 455 (1516241808912285700), Spec 456 (1516241808913334272), Spec 457 (1516241808913334273), Spec 458 (1516241808913334274), Spec 459 (1516241808913334275), Spec 460 (1516241808913334276), ... (49 adds)]} 0 8
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 9:54:30 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2,filenames=[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, segments_2, _0.nvd, _0.fdx, _0.fdt, _0_Lucene41_0.pos, _0.nvm, _0.fnm]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3,filenames=[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, _1.si, _1.nvd, _0.nvd, _0.fdx, _1.nvm, _1.fnm, _0.fdt, _0_Lucene41_0.pos, segments_3, _1_Lucene41_0.tip, _1.fdx, _1_Lucene41_0.doc, _1_Lucene41_0.tim, _0.nvm, _0.fnm, _1.fdt, _1_Lucene41_0.pos]
+Oct 27, 2015 9:54:30 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 3[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, _1.si, _1.nvd, _0.nvd, _0.fdx, _1.nvm, _1.fnm, _0.fdt, _0_Lucene41_0.pos, segments_3, _1_Lucene41_0.tip, _1.fdx, _1_Lucene41_0.doc, _1_Lucene41_0.tim, _0.nvm, _0.fnm, _1.fdt, _1_Lucene41_0.pos]
+Oct 27, 2015 9:54:30 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2be0de57 main
+Oct 27, 2015 9:54:30 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 9:54:30 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 9:54:30 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@2be0de57 main{StandardDirectoryReader(segments_3:5:nrt _0(4.2):C3 _1(4.2):C499)}
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 276
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:User (-1516241809217421312)} 0 17
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 2 (1516241809256218624), User 3 (1516241809257267200), User 4 (1516241809257267201), User 5 (1516241809257267202), User 6 (1516241809258315776), User 7 (1516241809258315777), User 8 (1516241809258315778), User 9 (1516241809258315779), User 10 (1516241809258315780), User 11 (1516241809259364352), ... (50 adds)]} 0 7
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 52 (1516241809274044416), User 53 (1516241809275092992), User 54 (1516241809275092993), User 55 (1516241809275092994), User 56 (1516241809275092995), User 57 (1516241809275092996), User 58 (1516241809275092997), User 59 (1516241809275092998), User 60 (1516241809275092999), User 61 (1516241809275093000), ... (50 adds)]} 0 4
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 102 (1516241809288724480), User 103 (1516241809288724481), User 104 (1516241809288724482), User 105 (1516241809288724483), User 106 (1516241809288724484), User 107 (1516241809288724485), User 108 (1516241809288724486), User 109 (1516241809288724487), User 110 (1516241809289773056), User 111 (1516241809289773057), ... (50 adds)]} 0 5
+Oct 27, 2015 9:54:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 152 (1516241809303404544), User 153 (1516241809303404545), User 154 (1516241809303404546), User 155 (1516241809303404547), User 156 (1516241809303404548), User 157 (1516241809303404549), User 158 (1516241809303404550), User 159 (1516241809303404551), User 160 (1516241809303404552), User 161 (1516241809303404553), ... (50 adds)]} 0 4
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 202 (1516241809317036032), User 203 (1516241809318084608), User 204 (1516241809318084609), User 205 (1516241809318084610), User 206 (1516241809318084611), User 207 (1516241809318084612), User 208 (1516241809318084613), User 209 (1516241809318084614), User 210 (1516241809318084615), User 211 (1516241809318084616), ... (50 adds)]} 0 5
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 252 (1516241809331716096), User 253 (1516241809331716097), User 254 (1516241809331716098), User 255 (1516241809331716099), User 256 (1516241809331716100), User 257 (1516241809331716101), User 258 (1516241809331716102), User 259 (1516241809332764672), User 260 (1516241809332764673), User 261 (1516241809332764674), ... (50 adds)]} 0 4
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 302 (1516241809345347584), User 303 (1516241809345347585), User 304 (1516241809345347586), User 305 (1516241809345347587), User 306 (1516241809345347588), User 307 (1516241809346396160), User 308 (1516241809346396161), User 309 (1516241809346396162), User 310 (1516241809346396163), User 311 (1516241809346396164), ... (50 adds)]} 0 3
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 352 (1516241809358979072), User 353 (1516241809358979073), User 354 (1516241809358979074), User 355 (1516241809358979075), User 356 (1516241809358979076), User 357 (1516241809358979077), User 358 (1516241809358979078), User 359 (1516241809358979079), User 360 (1516241809358979080), User 361 (1516241809358979081), ... (50 adds)]} 0 3
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 402 (1516241809370513408), User 403 (1516241809371561984), User 404 (1516241809371561985), User 405 (1516241809371561986), User 406 (1516241809371561987), User 407 (1516241809371561988), User 408 (1516241809371561989), User 409 (1516241809371561990), User 410 (1516241809371561991), User 411 (1516241809371561992), ... (50 adds)]} 0 3
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 452 (1516241809385193472), User 453 (1516241809385193473), User 454 (1516241809385193474), User 455 (1516241809385193475), User 456 (1516241809385193476), User 457 (1516241809385193477), User 458 (1516241809385193478), User 459 (1516241809385193479), User 460 (1516241809385193480), User 461 (1516241809385193481), ... (49 adds)]} 0 3
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 9:54:31 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3,filenames=[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, _1.si, _1.nvd, _0.nvd, _0.fdx, _1.nvm, _1.fnm, _0.fdt, _0_Lucene41_0.pos, segments_3, _1_Lucene41_0.tip, _1.fdx, _1_Lucene41_0.doc, _1_Lucene41_0.tim, _0.nvm, _0.fnm, _1.fdt, _1_Lucene41_0.pos]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4,filenames=[_0_Lucene41_0.tip, _0_Lucene41_0.tim, _1.si, _1.nvd, _0.nvd, _2.fdt, _2_Lucene41_0.doc, _1.nvm, _1.fnm, _2.fdx, _0_Lucene41_0.pos, _2.nvd, _2.nvm, _2.fnm, _1.fdx, _1_Lucene41_0.doc, _1.fdt, _0_Lucene41_0.doc, _0.si, _2.si, _2_Lucene41_0.tip, _2_Lucene41_0.tim, _0.fdx, _2_Lucene41_0.pos, segments_4, _0.fdt, _1_Lucene41_0.tip, _1_Lucene41_0.tim, _0.nvm, _0.fnm, _1_Lucene41_0.pos]
+Oct 27, 2015 9:54:31 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 4[_0_Lucene41_0.tip, _0_Lucene41_0.tim, _1.si, _1.nvd, _0.nvd, _2.fdt, _2_Lucene41_0.doc, _1.nvm, _1.fnm, _2.fdx, _0_Lucene41_0.pos, _2.nvd, _2.nvm, _2.fnm, _1.fdx, _1_Lucene41_0.doc, _1.fdt, _0_Lucene41_0.doc, _0.si, _2.si, _2_Lucene41_0.tip, _2_Lucene41_0.tim, _0.fdx, _2_Lucene41_0.pos, segments_4, _0.fdt, _1_Lucene41_0.tip, _1_Lucene41_0.tim, _0.nvm, _0.fnm, _1_Lucene41_0.pos]
+Oct 27, 2015 9:54:31 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2d17b3bc main
+Oct 27, 2015 9:54:31 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 9:54:31 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 9:54:31 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@2d17b3bc main{StandardDirectoryReader(segments_4:7:nrt _0(4.2):C3 _1(4.2):C499 _2(4.2):C499)}
+Oct 27, 2015 9:54:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 120
+Oct 27, 2015 9:54:39 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=7 
+Oct 27, 2015 9:57:02 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 9:57:02 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=3 
+Oct 27, 2015 9:57:02 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=2 
+Oct 27, 2015 10:00:24 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:00:24 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=1 
+Oct 27, 2015 10:00:24 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:00:56 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:00:56 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=1 
+Oct 27, 2015 10:00:56 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=0 
+Oct 27, 2015 10:09:40 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:09:40 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=1 
+Oct 27, 2015 10:09:40 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:15:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:15:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=1 
+Oct 27, 2015 10:15:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:15:57 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:15:57 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=0 
+Oct 27, 2015 10:15:57 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:16:06 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:16:06 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=1 
+Oct 27, 2015 10:16:06 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=0 
+Oct 27, 2015 10:16:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:16:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=0 
+Oct 27, 2015 10:16:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=0 
+Oct 27, 2015 10:20:09 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=b&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=22 
+Oct 27, 2015 10:20:09 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=b&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=1 status=0 QTime=18 
+Oct 27, 2015 10:20:09 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=b&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:20:20 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ark&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=23 
+Oct 27, 2015 10:20:20 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ark&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=30 
+Oct 27, 2015 10:20:20 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ark&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:20:26 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:20:26 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ar&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:20:26 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=2 
+Oct 27, 2015 10:20:32 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:20:32 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=0 
+Oct 27, 2015 10:20:32 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:20:42 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:20:42 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:20:42 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:20 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@75ab3b4a realtime
+Oct 27, 2015 10:23:20 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Faq (-1516243623048380416)} 0 84
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Faq 1 (1516243623519191040), Faq 2 (1516243623543308288), Faq 3 (1516243623543308289)]} 0 23
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4,filenames=[_0_Lucene41_0.tip, _0_Lucene41_0.tim, _1.si, _1.nvd, _0.nvd, _2.fdt, _2_Lucene41_0.doc, _1.nvm, _1.fnm, _2.fdx, _0_Lucene41_0.pos, _2.nvd, _2.nvm, _2.fnm, _1.fdx, _1_Lucene41_0.doc, _1.fdt, _0_Lucene41_0.doc, _0.si, _2.si, _2_Lucene41_0.tip, _2_Lucene41_0.tim, _0.fdx, _2_Lucene41_0.pos, segments_4, _0.fdt, _1_Lucene41_0.tip, _1_Lucene41_0.tim, _0.nvm, _0.fnm, _1_Lucene41_0.pos]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5,filenames=[_3.si, _1.si, _2.si, _1.nvd, _2_Lucene41_0.tip, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tim, _3.cfe, _1.nvm, _1.fnm, _2.fdx, _2_Lucene41_0.pos, segments_5, _2.nvd, _1_Lucene41_0.tip, _3.cfs, _2.nvm, _2.fnm, _1.fdx, _1_Lucene41_0.doc, _1_Lucene41_0.tim, _1.fdt, _1_Lucene41_0.pos]
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 5[_3.si, _1.si, _2.si, _1.nvd, _2_Lucene41_0.tip, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tim, _3.cfe, _1.nvm, _1.fnm, _2.fdx, _2_Lucene41_0.pos, segments_5, _2.nvd, _1_Lucene41_0.tip, _3.cfs, _2.nvm, _2.fnm, _1.fdx, _1_Lucene41_0.doc, _1_Lucene41_0.tim, _1.fdt, _1_Lucene41_0.pos]
+Oct 27, 2015 10:23:21 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@7cecff79 main
+Oct 27, 2015 10:23:21 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:23:21 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@7cecff79 main{StandardDirectoryReader(segments_5:11:nrt _1(4.2):C499 _2(4.2):C499 _3(4.2):c3)}
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 246
+Oct 27, 2015 10:23:21 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@15c2c9b9 realtime
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Spec (-1516243623807549440)} 0 10
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 1 (1516243623851589632), Spec 2 (1516243623851589633), Spec 3 (1516243623851589634), Spec 4 (1516243623851589635), Spec 5 (1516243623852638208), Spec 6 (1516243623852638209), Spec 7 (1516243623852638210), Spec 8 (1516243623852638211), Spec 9 (1516243623852638212), Spec 10 (1516243623852638213), ... (50 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 51 (1516243623871512576), Spec 52 (1516243623872561152), Spec 53 (1516243623872561153), Spec 54 (1516243623872561154), Spec 55 (1516243623872561155), Spec 56 (1516243623872561156), Spec 57 (1516243623872561157), Spec 58 (1516243623872561158), Spec 59 (1516243623872561159), Spec 60 (1516243623872561160), ... (50 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 101 (1516243623897726976), Spec 102 (1516243623897726977), Spec 103 (1516243623897726978), Spec 104 (1516243623897726979), Spec 105 (1516243623897726980), Spec 106 (1516243623897726981), Spec 107 (1516243623897726982), Spec 108 (1516243623897726983), Spec 109 (1516243623897726984), Spec 110 (1516243623897726985), ... (50 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 151 (1516243623924989952), Spec 152 (1516243623926038528), Spec 153 (1516243623926038529), Spec 154 (1516243623926038530), Spec 155 (1516243623926038531), Spec 156 (1516243623926038532), Spec 157 (1516243623926038533), Spec 158 (1516243623926038534), Spec 159 (1516243623926038535), Spec 160 (1516243623926038536), ... (50 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 201 (1516243623950155776), Spec 202 (1516243623950155777), Spec 203 (1516243623950155778), Spec 204 (1516243623950155779), Spec 205 (1516243623950155780), Spec 206 (1516243623950155781), Spec 207 (1516243623950155782), Spec 208 (1516243623951204352), Spec 209 (1516243623951204353), Spec 210 (1516243623951204354), ... (50 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 251 (1516243623970078720), Spec 252 (1516243623970078721), Spec 253 (1516243623970078722), Spec 254 (1516243623970078723), Spec 255 (1516243623970078724), Spec 256 (1516243623970078725), Spec 257 (1516243623970078726), Spec 258 (1516243623970078727), Spec 259 (1516243623970078728), Spec 260 (1516243623970078729), ... (50 adds)]} 0 2
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 301 (1516243623984758784), Spec 302 (1516243623985807360), Spec 303 (1516243623985807361), Spec 304 (1516243623985807362), Spec 305 (1516243623985807363), Spec 306 (1516243623985807364), Spec 307 (1516243623985807365), Spec 308 (1516243623985807366), Spec 309 (1516243623985807367), Spec 310 (1516243623985807368), ... (50 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 351 (1516243624000487424), Spec 352 (1516243624000487425), Spec 353 (1516243624000487426), Spec 354 (1516243624000487427), Spec 355 (1516243624000487428), Spec 356 (1516243624000487429), Spec 357 (1516243624000487430), Spec 358 (1516243624000487431), Spec 359 (1516243624000487432), Spec 360 (1516243624000487433), ... (50 adds)]} 0 2
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 401 (1516243624015167488), Spec 402 (1516243624016216064), Spec 403 (1516243624016216065), Spec 404 (1516243624016216066), Spec 405 (1516243624016216067), Spec 406 (1516243624016216068), Spec 407 (1516243624016216069), Spec 408 (1516243624016216070), Spec 409 (1516243624016216071), Spec 410 (1516243624016216072), ... (50 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 451 (1516243624031944704), Spec 452 (1516243624031944705), Spec 453 (1516243624031944706), Spec 454 (1516243624031944707), Spec 455 (1516243624031944708), Spec 456 (1516243624032993280), Spec 457 (1516243624032993281), Spec 458 (1516243624032993282), Spec 459 (1516243624032993283), Spec 460 (1516243624032993284), ... (49 adds)]} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5,filenames=[_3.si, _1.si, _2.si, _1.nvd, _2_Lucene41_0.tip, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tim, _3.cfe, _1.nvm, _1.fnm, _2.fdx, _2_Lucene41_0.pos, segments_5, _2.nvd, _1_Lucene41_0.tip, _3.cfs, _2.nvm, _2.fnm, _1.fdx, _1_Lucene41_0.doc, _1_Lucene41_0.tim, _1.fdt, _1_Lucene41_0.pos]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6,filenames=[_3.si, _2.si, _4.nvm, _4.fnm, _2_Lucene41_0.tip, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tim, _3.cfe, segments_6, _2.fdx, _2_Lucene41_0.pos, _4.nvd, _4.fdx, _2.nvd, _4.fdt, _4_Lucene41_0.pos, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _3.cfs, _2.nvm, _2.fnm, _4.si]
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 6[_3.si, _2.si, _4.nvm, _4.fnm, _2_Lucene41_0.tip, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tim, _3.cfe, segments_6, _2.fdx, _2_Lucene41_0.pos, _4.nvd, _4.fdx, _2.nvd, _4.fdt, _4_Lucene41_0.pos, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _3.cfs, _2.nvm, _2.fnm, _4.si]
+Oct 27, 2015 10:23:21 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@4c28eced main
+Oct 27, 2015 10:23:21 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:23:21 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@4c28eced main{StandardDirectoryReader(segments_6:15:nrt _2(4.2):C499 _3(4.2):c3 _4(4.2):C499)}
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 112
+Oct 27, 2015 10:23:21 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2574adff realtime
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:User (-1516243624157773824)} 0 3
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 2 (1516243624178745344), User 3 (1516243624179793920), User 4 (1516243624179793921), User 5 (1516243624179793922), User 6 (1516243624179793923), User 7 (1516243624179793924), User 8 (1516243624179793925), User 9 (1516243624179793926), User 10 (1516243624179793927), User 11 (1516243624179793928), ... (50 adds)]} 0 2
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 52 (1516243624190279680), User 53 (1516243624190279681), User 54 (1516243624190279682), User 55 (1516243624191328256), User 56 (1516243624191328257), User 57 (1516243624191328258), User 58 (1516243624191328259), User 59 (1516243624191328260), User 60 (1516243624191328261), User 61 (1516243624191328262), ... (50 adds)]} 0 2
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 102 (1516243624200765440), User 103 (1516243624200765441), User 104 (1516243624200765442), User 105 (1516243624200765443), User 106 (1516243624200765444), User 107 (1516243624201814016), User 108 (1516243624201814017), User 109 (1516243624201814018), User 110 (1516243624201814019), User 111 (1516243624201814020), ... (50 adds)]} 0 2
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 152 (1516243624213348352), User 153 (1516243624213348353), User 154 (1516243624213348354), User 155 (1516243624213348355), User 156 (1516243624213348356), User 157 (1516243624213348357), User 158 (1516243624213348358), User 159 (1516243624213348359), User 160 (1516243624213348360), User 161 (1516243624213348361), ... (50 adds)]} 0 1
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 202 (1516243624223834112), User 203 (1516243624223834113), User 204 (1516243624223834114), User 205 (1516243624223834115), User 206 (1516243624223834116), User 207 (1516243624223834117), User 208 (1516243624223834118), User 209 (1516243624223834119), User 210 (1516243624223834120), User 211 (1516243624223834121), ... (50 adds)]} 0 1
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 252 (1516243624233271296), User 253 (1516243624234319872), User 254 (1516243624234319873), User 255 (1516243624234319874), User 256 (1516243624234319875), User 257 (1516243624234319876), User 258 (1516243624234319877), User 259 (1516243624234319878), User 260 (1516243624234319879), User 261 (1516243624234319880), ... (50 adds)]} 0 2
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 302 (1516243624243757056), User 303 (1516243624243757057), User 304 (1516243624243757058), User 305 (1516243624243757059), User 306 (1516243624243757060), User 307 (1516243624243757061), User 308 (1516243624243757062), User 309 (1516243624243757063), User 310 (1516243624243757064), User 311 (1516243624243757065), ... (50 adds)]} 0 1
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 352 (1516243624255291392), User 353 (1516243624255291393), User 354 (1516243624255291394), User 355 (1516243624255291395), User 356 (1516243624255291396), User 357 (1516243624255291397), User 358 (1516243624255291398), User 359 (1516243624255291399), User 360 (1516243624255291400), User 361 (1516243624255291401), ... (50 adds)]} 0 2
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 402 (1516243624265777152), User 403 (1516243624265777153), User 404 (1516243624265777154), User 405 (1516243624265777155), User 406 (1516243624265777156), User 407 (1516243624265777157), User 408 (1516243624265777158), User 409 (1516243624265777159), User 410 (1516243624265777160), User 411 (1516243624265777161), ... (50 adds)]} 0 1
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 452 (1516243624275214336), User 453 (1516243624275214337), User 454 (1516243624275214338), User 455 (1516243624275214339), User 456 (1516243624275214340), User 457 (1516243624275214341), User 458 (1516243624275214342), User 459 (1516243624275214343), User 460 (1516243624275214344), User 461 (1516243624275214345), ... (49 adds)]} 0 1
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6,filenames=[_3.si, _2.si, _4.nvm, _4.fnm, _2_Lucene41_0.tip, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tim, _3.cfe, segments_6, _2.fdx, _2_Lucene41_0.pos, _4.nvd, _4.fdx, _2.nvd, _4.fdt, _4_Lucene41_0.pos, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _3.cfs, _2.nvm, _2.fnm, _4.si]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7,filenames=[_3.si, _5_Lucene41_0.tip, segments_7, _4.nvm, _4.fnm, _5.fdt, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _3.cfe, _4.nvd, _4.fdx, _5.nvm, _5.fnm, _4.fdt, _4_Lucene41_0.pos, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _3.cfs, _5.nvd, _5_Lucene41_0.pos, _4.si, _5.si, _5.fdx]
+Oct 27, 2015 10:23:21 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 7[_3.si, _5_Lucene41_0.tip, segments_7, _4.nvm, _4.fnm, _5.fdt, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _3.cfe, _4.nvd, _4.fdx, _5.nvm, _5.fnm, _4.fdt, _4_Lucene41_0.pos, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _3.cfs, _5.nvd, _5_Lucene41_0.pos, _4.si, _5.si, _5.fdx]
+Oct 27, 2015 10:23:21 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5a849180 main
+Oct 27, 2015 10:23:21 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:23:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:23:22 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:23:22 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@5a849180 main{StandardDirectoryReader(segments_7:19:nrt _3(4.2):c3 _4(4.2):C499 _5(4.2):C499)}
+Oct 27, 2015 10:23:22 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 122
+Oct 27, 2015 10:23:26 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:26 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:26 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:29 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:29 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:29 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sha&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:23:33 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:33 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=1 
+Oct 27, 2015 10:23:33 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:23:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Br&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:23:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Br&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Br&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:23:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:23:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=19 status=0 QTime=1 
+Oct 27, 2015 10:23:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=a&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=1 status=0 QTime=0 
+Oct 27, 2015 10:24:18 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bour&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=2 
+Oct 27, 2015 10:24:18 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bour&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:18 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bour&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:23 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Tas&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:24:23 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Tas&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:23 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Tas&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:29 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ia&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:29 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ia&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=1 status=0 QTime=2 
+Oct 27, 2015 10:24:29 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ia&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:45 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:45 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=46 status=0 QTime=1 
+Oct 27, 2015 10:24:45 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:24:50 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:24:50 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=first_name_text+last_name_text+occupation_text+city_text+state_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=46 status=0 QTime=1 
+Oct 27, 2015 10:24:50 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:25:21 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:25:21 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=46 status=0 QTime=1 
+Oct 27, 2015 10:25:21 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=ny&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:25:31 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:25:31 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:25:31 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:25:57 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5ba0cb75 realtime
+Oct 27, 2015 10:25:57 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Faq (-1516243787860410368)} 0 51
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Faq 1 (1516243788137234432), Faq 2 (1516243788160303104), Faq 3 (1516243788160303105)]} 0 23
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7,filenames=[_3.si, _5_Lucene41_0.tip, segments_7, _4.nvm, _4.fnm, _5.fdt, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _3.cfe, _4.nvd, _4.fdx, _5.nvm, _5.fnm, _4.fdt, _4_Lucene41_0.pos, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _3.cfs, _5.nvd, _5_Lucene41_0.pos, _4.si, _5.si, _5.fdx]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8,filenames=[_6.cfe, segments_8, _5_Lucene41_0.tip, _4.nvm, _4.fnm, _5.fdt, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _4.nvd, _4.fdx, _5.nvm, _5.fnm, _4.fdt, _4_Lucene41_0.pos, _6.cfs, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _5.nvd, _5_Lucene41_0.pos, _4.si, _5.si, _6.si, _5.fdx]
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 8[_6.cfe, segments_8, _5_Lucene41_0.tip, _4.nvm, _4.fnm, _5.fdt, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _4.nvd, _4.fdx, _5.nvm, _5.fnm, _4.fdt, _4_Lucene41_0.pos, _6.cfs, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _5.nvd, _5_Lucene41_0.pos, _4.si, _5.si, _6.si, _5.fdx]
+Oct 27, 2015 10:25:58 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@51795edc main
+Oct 27, 2015 10:25:58 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:25:58 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@51795edc main{StandardDirectoryReader(segments_8:23:nrt _4(4.2):C499 _5(4.2):C499 _6(4.2):c3)}
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 99
+Oct 27, 2015 10:25:58 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@11074454 realtime
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Spec (-1516243788271452160)} 0 21
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 1 (1516243788325978112), Spec 2 (1516243788327026688), Spec 3 (1516243788327026689), Spec 4 (1516243788327026690), Spec 5 (1516243788327026691), Spec 6 (1516243788327026692), Spec 7 (1516243788327026693), Spec 8 (1516243788327026694), Spec 9 (1516243788327026695), Spec 10 (1516243788327026696), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 51 (1516243788345901056), Spec 52 (1516243788345901057), Spec 53 (1516243788345901058), Spec 54 (1516243788345901059), Spec 55 (1516243788345901060), Spec 56 (1516243788345901061), Spec 57 (1516243788345901062), Spec 58 (1516243788345901063), Spec 59 (1516243788345901064), Spec 60 (1516243788345901065), ... (50 adds)]} 0 3
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 101 (1516243788373164032), Spec 102 (1516243788373164033), Spec 103 (1516243788373164034), Spec 104 (1516243788373164035), Spec 105 (1516243788373164036), Spec 106 (1516243788373164037), Spec 107 (1516243788373164038), Spec 108 (1516243788373164039), Spec 109 (1516243788373164040), Spec 110 (1516243788373164041), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 151 (1516243788399378432), Spec 152 (1516243788399378433), Spec 153 (1516243788399378434), Spec 154 (1516243788399378435), Spec 155 (1516243788399378436), Spec 156 (1516243788399378437), Spec 157 (1516243788399378438), Spec 158 (1516243788399378439), Spec 159 (1516243788399378440), Spec 160 (1516243788399378441), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 201 (1516243788422447104), Spec 202 (1516243788422447105), Spec 203 (1516243788422447106), Spec 204 (1516243788422447107), Spec 205 (1516243788422447108), Spec 206 (1516243788422447109), Spec 207 (1516243788422447110), Spec 208 (1516243788422447111), Spec 209 (1516243788422447112), Spec 210 (1516243788422447113), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 251 (1516243788441321472), Spec 252 (1516243788441321473), Spec 253 (1516243788441321474), Spec 254 (1516243788441321475), Spec 255 (1516243788441321476), Spec 256 (1516243788441321477), Spec 257 (1516243788441321478), Spec 258 (1516243788441321479), Spec 259 (1516243788442370048), Spec 260 (1516243788442370049), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 301 (1516243788456001536), Spec 302 (1516243788456001537), Spec 303 (1516243788456001538), Spec 304 (1516243788456001539), Spec 305 (1516243788456001540), Spec 306 (1516243788456001541), Spec 307 (1516243788457050112), Spec 308 (1516243788457050113), Spec 309 (1516243788457050114), Spec 310 (1516243788457050115), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 351 (1516243788470681600), Spec 352 (1516243788470681601), Spec 353 (1516243788470681602), Spec 354 (1516243788470681603), Spec 355 (1516243788470681604), Spec 356 (1516243788470681605), Spec 357 (1516243788470681606), Spec 358 (1516243788470681607), Spec 359 (1516243788470681608), Spec 360 (1516243788470681609), ... (50 adds)]} 0 3
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 401 (1516243788486410240), Spec 402 (1516243788486410241), Spec 403 (1516243788486410242), Spec 404 (1516243788486410243), Spec 405 (1516243788486410244), Spec 406 (1516243788486410245), Spec 407 (1516243788486410246), Spec 408 (1516243788486410247), Spec 409 (1516243788486410248), Spec 410 (1516243788486410249), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 451 (1516243788500041728), Spec 452 (1516243788501090304), Spec 453 (1516243788501090305), Spec 454 (1516243788501090306), Spec 455 (1516243788501090307), Spec 456 (1516243788501090308), Spec 457 (1516243788501090309), Spec 458 (1516243788501090310), Spec 459 (1516243788501090311), Spec 460 (1516243788501090312), ... (49 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8,filenames=[_6.cfe, segments_8, _5_Lucene41_0.tip, _4.nvm, _4.fnm, _5.fdt, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _4.nvd, _4.fdx, _5.nvm, _5.fnm, _4.fdt, _4_Lucene41_0.pos, _6.cfs, _4_Lucene41_0.tip, _4_Lucene41_0.doc, _4_Lucene41_0.tim, _5.nvd, _5_Lucene41_0.pos, _4.si, _5.si, _6.si, _5.fdx]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9,filenames=[_6.cfe, segments_9, _5_Lucene41_0.tip, _5.fdt, _7_Lucene41_0.doc, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _7_Lucene41_0.tim, _7_Lucene41_0.tip, _5.nvm, _5.fnm, _6.cfs, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _7.si, _5.nvd, _7.fdt, _5_Lucene41_0.pos, _7.nvd, _5.si, _7.fdx, _6.si, _5.fdx]
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 9[_6.cfe, segments_9, _5_Lucene41_0.tip, _5.fdt, _7_Lucene41_0.doc, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _7_Lucene41_0.tim, _7_Lucene41_0.tip, _5.nvm, _5.fnm, _6.cfs, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _7.si, _5.nvd, _7.fdt, _5_Lucene41_0.pos, _7.nvd, _5.si, _7.fdx, _6.si, _5.fdx]
+Oct 27, 2015 10:25:58 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@63ba4cea main
+Oct 27, 2015 10:25:58 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:25:58 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@63ba4cea main{StandardDirectoryReader(segments_9:27:nrt _5(4.2):C499 _6(4.2):c3 _7(4.2):C499)}
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 100
+Oct 27, 2015 10:25:58 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@10aeb75a realtime
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:User (-1516243788611190784)} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 2 (1516243788630065152), User 3 (1516243788631113728), User 4 (1516243788631113729), User 5 (1516243788631113730), User 6 (1516243788631113731), User 7 (1516243788631113732), User 8 (1516243788631113733), User 9 (1516243788631113734), User 10 (1516243788631113735), User 11 (1516243788631113736), ... (50 adds)]} 0 2
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 52 (1516243788640550912), User 53 (1516243788641599488), User 54 (1516243788641599489), User 55 (1516243788641599490), User 56 (1516243788641599491), User 57 (1516243788641599492), User 58 (1516243788641599493), User 59 (1516243788641599494), User 60 (1516243788641599495), User 61 (1516243788641599496), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 102 (1516243788651036672), User 103 (1516243788651036673), User 104 (1516243788651036674), User 105 (1516243788651036675), User 106 (1516243788651036676), User 107 (1516243788651036677), User 108 (1516243788651036678), User 109 (1516243788651036679), User 110 (1516243788651036680), User 111 (1516243788651036681), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 152 (1516243788660473856), User 153 (1516243788660473857), User 154 (1516243788660473858), User 155 (1516243788660473859), User 156 (1516243788660473860), User 157 (1516243788660473861), User 158 (1516243788660473862), User 159 (1516243788660473863), User 160 (1516243788660473864), User 161 (1516243788660473865), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 202 (1516243788669911040), User 203 (1516243788669911041), User 204 (1516243788669911042), User 205 (1516243788669911043), User 206 (1516243788669911044), User 207 (1516243788669911045), User 208 (1516243788669911046), User 209 (1516243788669911047), User 210 (1516243788669911048), User 211 (1516243788669911049), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 252 (1516243788679348224), User 253 (1516243788679348225), User 254 (1516243788679348226), User 255 (1516243788679348227), User 256 (1516243788679348228), User 257 (1516243788680396800), User 258 (1516243788680396801), User 259 (1516243788680396802), User 260 (1516243788680396803), User 261 (1516243788680396804), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 302 (1516243788688785408), User 303 (1516243788688785409), User 304 (1516243788688785410), User 305 (1516243788688785411), User 306 (1516243788688785412), User 307 (1516243788688785413), User 308 (1516243788688785414), User 309 (1516243788688785415), User 310 (1516243788688785416), User 311 (1516243788688785417), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 352 (1516243788698222592), User 353 (1516243788698222593), User 354 (1516243788698222594), User 355 (1516243788698222595), User 356 (1516243788698222596), User 357 (1516243788698222597), User 358 (1516243788698222598), User 359 (1516243788698222599), User 360 (1516243788698222600), User 361 (1516243788698222601), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 402 (1516243788708708352), User 403 (1516243788708708353), User 404 (1516243788708708354), User 405 (1516243788708708355), User 406 (1516243788708708356), User 407 (1516243788708708357), User 408 (1516243788708708358), User 409 (1516243788708708359), User 410 (1516243788708708360), User 411 (1516243788708708361), ... (50 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 452 (1516243788719194112), User 453 (1516243788719194113), User 454 (1516243788719194114), User 455 (1516243788719194115), User 456 (1516243788719194116), User 457 (1516243788719194117), User 458 (1516243788719194118), User 459 (1516243788719194119), User 460 (1516243788719194120), User 461 (1516243788719194121), ... (49 adds)]} 0 1
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9,filenames=[_6.cfe, segments_9, _5_Lucene41_0.tip, _5.fdt, _7_Lucene41_0.doc, _5_Lucene41_0.doc, _5_Lucene41_0.tim, _7_Lucene41_0.tim, _7_Lucene41_0.tip, _5.nvm, _5.fnm, _6.cfs, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _7.si, _5.nvd, _7.fdt, _5_Lucene41_0.pos, _7.nvd, _5.si, _7.fdx, _6.si, _5.fdx]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10,filenames=[_6.cfe, _8.fdx, _8_Lucene41_0.pos, _7_Lucene41_0.doc, _8.fdt, _7_Lucene41_0.tim, _7_Lucene41_0.tip, _8.nvd, _6.cfs, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _8.fnm, _7.si, _8.nvm, segments_a, _7.fdt, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _8_Lucene41_0.tip, _7.nvd, _7.fdx, _6.si, _8.si]
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 10[_6.cfe, _8.fdx, _8_Lucene41_0.pos, _7_Lucene41_0.doc, _8.fdt, _7_Lucene41_0.tim, _7_Lucene41_0.tip, _8.nvd, _6.cfs, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _8.fnm, _7.si, _8.nvm, segments_a, _7.fdt, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _8_Lucene41_0.tip, _7.nvd, _7.fdx, _6.si, _8.si]
+Oct 27, 2015 10:25:58 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@219c6b88 main
+Oct 27, 2015 10:25:58 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:25:58 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:25:58 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@219c6b88 main{StandardDirectoryReader(segments_a:31:nrt _6(4.2):c3 _7(4.2):C499 _8(4.2):C499)}
+Oct 27, 2015 10:25:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 77
+Oct 27, 2015 10:26:01 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:26:01 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:26:01 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:26:04 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:26:04 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:26:04 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:26:10 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:26:10 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=46 status=0 QTime=1 
+Oct 27, 2015 10:26:10 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:29:13 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5936c85b realtime
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Faq (-1516243992627380224)} 0 3
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Faq 1 (1516243992974458880), Faq 2 (1516243992975507456), Faq 3 (1516243992975507457)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:29:13 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10,filenames=[_6.cfe, _8.fdx, _8_Lucene41_0.pos, _7_Lucene41_0.doc, _8.fdt, _7_Lucene41_0.tim, _7_Lucene41_0.tip, _8.nvd, _6.cfs, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _8.fnm, _7.si, _8.nvm, segments_a, _7.fdt, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _8_Lucene41_0.tip, _7.nvd, _7.fdx, _6.si, _8.si]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11,filenames=[_8.fdx, _8_Lucene41_0.pos, _7_Lucene41_0.doc, _8.fdt, _7_Lucene41_0.tim, _9.cfs, _7_Lucene41_0.tip, _8.nvd, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _8.fnm, segments_b, _7.si, _8.nvm, _9.cfe, _7.fdt, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _8_Lucene41_0.tip, _7.nvd, _7.fdx, _8.si, _9.si]
+Oct 27, 2015 10:29:13 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 11[_8.fdx, _8_Lucene41_0.pos, _7_Lucene41_0.doc, _8.fdt, _7_Lucene41_0.tim, _9.cfs, _7_Lucene41_0.tip, _8.nvd, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _8.fnm, segments_b, _7.si, _8.nvm, _9.cfe, _7.fdt, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _8_Lucene41_0.tip, _7.nvd, _7.fdx, _8.si, _9.si]
+Oct 27, 2015 10:29:13 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1f0aa9f3 main
+Oct 27, 2015 10:29:13 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:29:13 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:29:13 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@1f0aa9f3 main{StandardDirectoryReader(segments_b:35:nrt _7(4.2):C499 _8(4.2):C499 _9(4.2):c3)}
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 58
+Oct 27, 2015 10:29:13 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@739cdbd0 realtime
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Spec (-1516243993041567744)} 0 10
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 1 (1516243993087705088), Spec 2 (1516243993091899392), Spec 3 (1516243993091899393), Spec 4 (1516243993091899394), Spec 5 (1516243993091899395), Spec 6 (1516243993091899396), Spec 7 (1516243993091899397), Spec 8 (1516243993091899398), Spec 9 (1516243993091899399), Spec 10 (1516243993091899400), ... (50 adds)]} 0 6
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 51 (1516243993109725184), Spec 52 (1516243993110773760), Spec 53 (1516243993110773761), Spec 54 (1516243993110773762), Spec 55 (1516243993110773763), Spec 56 (1516243993110773764), Spec 57 (1516243993110773765), Spec 58 (1516243993110773766), Spec 59 (1516243993110773767), Spec 60 (1516243993110773768), ... (50 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 101 (1516243993132793856), Spec 102 (1516243993132793857), Spec 103 (1516243993132793858), Spec 104 (1516243993132793859), Spec 105 (1516243993133842432), Spec 106 (1516243993133842433), Spec 107 (1516243993133842434), Spec 108 (1516243993133842435), Spec 109 (1516243993133842436), Spec 110 (1516243993133842437), ... (50 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 151 (1516243993159008256), Spec 152 (1516243993159008257), Spec 153 (1516243993159008258), Spec 154 (1516243993159008259), Spec 155 (1516243993159008260), Spec 156 (1516243993159008261), Spec 157 (1516243993159008262), Spec 158 (1516243993159008263), Spec 159 (1516243993159008264), Spec 160 (1516243993159008265), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 201 (1516243993179979776), Spec 202 (1516243993179979777), Spec 203 (1516243993179979778), Spec 204 (1516243993179979779), Spec 205 (1516243993179979780), Spec 206 (1516243993179979781), Spec 207 (1516243993179979782), Spec 208 (1516243993179979783), Spec 209 (1516243993179979784), Spec 210 (1516243993179979785), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 251 (1516243993195708416), Spec 252 (1516243993195708417), Spec 253 (1516243993196756992), Spec 254 (1516243993196756993), Spec 255 (1516243993196756994), Spec 256 (1516243993196756995), Spec 257 (1516243993196756996), Spec 258 (1516243993196756997), Spec 259 (1516243993196756998), Spec 260 (1516243993196756999), ... (50 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 301 (1516243993210388480), Spec 302 (1516243993210388481), Spec 303 (1516243993210388482), Spec 304 (1516243993210388483), Spec 305 (1516243993210388484), Spec 306 (1516243993210388485), Spec 307 (1516243993210388486), Spec 308 (1516243993210388487), Spec 309 (1516243993210388488), Spec 310 (1516243993210388489), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 351 (1516243993224019968), Spec 352 (1516243993225068544), Spec 353 (1516243993225068545), Spec 354 (1516243993225068546), Spec 355 (1516243993225068547), Spec 356 (1516243993225068548), Spec 357 (1516243993225068549), Spec 358 (1516243993225068550), Spec 359 (1516243993225068551), Spec 360 (1516243993225068552), ... (50 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 401 (1516243993238700032), Spec 402 (1516243993238700033), Spec 403 (1516243993238700034), Spec 404 (1516243993238700035), Spec 405 (1516243993238700036), Spec 406 (1516243993238700037), Spec 407 (1516243993238700038), Spec 408 (1516243993238700039), Spec 409 (1516243993239748608), Spec 410 (1516243993239748609), ... (50 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 451 (1516243993253380096), Spec 452 (1516243993253380097), Spec 453 (1516243993253380098), Spec 454 (1516243993253380099), Spec 455 (1516243993253380100), Spec 456 (1516243993253380101), Spec 457 (1516243993253380102), Spec 458 (1516243993253380103), Spec 459 (1516243993253380104), Spec 460 (1516243993253380105), ... (49 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:29:13 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11,filenames=[_8.fdx, _8_Lucene41_0.pos, _7_Lucene41_0.doc, _8.fdt, _7_Lucene41_0.tim, _9.cfs, _7_Lucene41_0.tip, _8.nvd, _7_Lucene41_0.pos, _7.nvm, _7.fnm, _8.fnm, segments_b, _7.si, _8.nvm, _9.cfe, _7.fdt, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _8_Lucene41_0.tip, _7.nvd, _7.fdx, _8.si, _9.si]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12,filenames=[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _8.fdx, _a.fdt, _8_Lucene41_0.pos, _a_Lucene41_0.pos, _a.si, _8.fdt, _a.fdx, _9.cfs, _a_Lucene41_0.tip, _8.nvd, _a.nvm, _a.fnm, _8.fnm, _8.nvm, _9.cfe, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _a.nvd, _8_Lucene41_0.tip, segments_c, _8.si, _9.si]
+Oct 27, 2015 10:29:13 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 12[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _8.fdx, _a.fdt, _8_Lucene41_0.pos, _a_Lucene41_0.pos, _a.si, _8.fdt, _a.fdx, _9.cfs, _a_Lucene41_0.tip, _8.nvd, _a.nvm, _a.fnm, _8.fnm, _8.nvm, _9.cfe, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _a.nvd, _8_Lucene41_0.tip, segments_c, _8.si, _9.si]
+Oct 27, 2015 10:29:13 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@54fbefc2 main
+Oct 27, 2015 10:29:13 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:29:13 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:29:13 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@54fbefc2 main{StandardDirectoryReader(segments_c:39:nrt _8(4.2):C499 _9(4.2):c3 _a(4.2):C499)}
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 115
+Oct 27, 2015 10:29:13 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@15d962ac realtime
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:User (-1516243993381306368)} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 2 (1516243993400180736), User 3 (1516243993401229312), User 4 (1516243993401229313), User 5 (1516243993401229314), User 6 (1516243993401229315), User 7 (1516243993401229316), User 8 (1516243993401229317), User 9 (1516243993401229318), User 10 (1516243993401229319), User 11 (1516243993401229320), ... (50 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 52 (1516243993410666496), User 53 (1516243993411715072), User 54 (1516243993411715073), User 55 (1516243993411715074), User 56 (1516243993411715075), User 57 (1516243993411715076), User 58 (1516243993411715077), User 59 (1516243993411715078), User 60 (1516243993411715079), User 61 (1516243993411715080), ... (50 adds)]} 0 2
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 102 (1516243993423249408), User 103 (1516243993423249409), User 104 (1516243993423249410), User 105 (1516243993423249411), User 106 (1516243993423249412), User 107 (1516243993423249413), User 108 (1516243993423249414), User 109 (1516243993423249415), User 110 (1516243993423249416), User 111 (1516243993423249417), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 152 (1516243993432686592), User 153 (1516243993432686593), User 154 (1516243993432686594), User 155 (1516243993432686595), User 156 (1516243993432686596), User 157 (1516243993432686597), User 158 (1516243993432686598), User 159 (1516243993432686599), User 160 (1516243993432686600), User 161 (1516243993432686601), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 202 (1516243993443172352), User 203 (1516243993443172353), User 204 (1516243993443172354), User 205 (1516243993443172355), User 206 (1516243993443172356), User 207 (1516243993443172357), User 208 (1516243993443172358), User 209 (1516243993443172359), User 210 (1516243993443172360), User 211 (1516243993443172361), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 252 (1516243993452609536), User 253 (1516243993452609537), User 254 (1516243993452609538), User 255 (1516243993453658112), User 256 (1516243993453658113), User 257 (1516243993453658114), User 258 (1516243993453658115), User 259 (1516243993453658116), User 260 (1516243993453658117), User 261 (1516243993453658118), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 302 (1516243993464143872), User 303 (1516243993464143873), User 304 (1516243993464143874), User 305 (1516243993464143875), User 306 (1516243993464143876), User 307 (1516243993464143877), User 308 (1516243993464143878), User 309 (1516243993464143879), User 310 (1516243993464143880), User 311 (1516243993464143881), ... (50 adds)]} 0 13
+Oct 27, 2015 10:29:13 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 352 (1516243993487212544), User 353 (1516243993487212545), User 354 (1516243993487212546), User 355 (1516243993487212547), User 356 (1516243993487212548), User 357 (1516243993487212549), User 358 (1516243993487212550), User 359 (1516243993487212551), User 360 (1516243993487212552), User 361 (1516243993487212553), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:14 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 402 (1516243993497698304), User 403 (1516243993497698305), User 404 (1516243993497698306), User 405 (1516243993497698307), User 406 (1516243993497698308), User 407 (1516243993497698309), User 408 (1516243993497698310), User 409 (1516243993497698311), User 410 (1516243993497698312), User 411 (1516243993497698313), ... (50 adds)]} 0 1
+Oct 27, 2015 10:29:14 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 452 (1516243993508184064), User 453 (1516243993508184065), User 454 (1516243993508184066), User 455 (1516243993508184067), User 456 (1516243993508184068), User 457 (1516243993508184069), User 458 (1516243993508184070), User 459 (1516243993508184071), User 460 (1516243993508184072), User 461 (1516243993508184073), ... (49 adds)]} 0 1
+Oct 27, 2015 10:29:14 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:29:14 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12,filenames=[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _8.fdx, _a.fdt, _8_Lucene41_0.pos, _a_Lucene41_0.pos, _a.si, _8.fdt, _a.fdx, _9.cfs, _a_Lucene41_0.tip, _8.nvd, _a.nvm, _a.fnm, _8.fnm, _8.nvm, _9.cfe, _8_Lucene41_0.doc, _8_Lucene41_0.tim, _a.nvd, _8_Lucene41_0.tip, segments_c, _8.si, _9.si]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13,filenames=[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _a.fdt, _a_Lucene41_0.pos, _a.si, _b.nvd, _a.fdx, _b.si, _9.cfs, _a_Lucene41_0.tip, _b.nvm, _b.fnm, _a.nvm, _a.fnm, _b_Lucene41_0.tip, _9.cfe, _b.fdx, _a.nvd, _b_Lucene41_0.pos, _b.fdt, segments_d, _b_Lucene41_0.doc, _b_Lucene41_0.tim, _9.si]
+Oct 27, 2015 10:29:14 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 13[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _a.fdt, _a_Lucene41_0.pos, _a.si, _b.nvd, _a.fdx, _b.si, _9.cfs, _a_Lucene41_0.tip, _b.nvm, _b.fnm, _a.nvm, _a.fnm, _b_Lucene41_0.tip, _9.cfe, _b.fdx, _a.nvd, _b_Lucene41_0.pos, _b.fdt, segments_d, _b_Lucene41_0.doc, _b_Lucene41_0.tim, _9.si]
+Oct 27, 2015 10:29:14 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1a1c0a7a main
+Oct 27, 2015 10:29:14 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:29:14 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:29:14 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:29:14 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@1a1c0a7a main{StandardDirectoryReader(segments_d:43:nrt _9(4.2):c3 _a(4.2):C499 _b(4.2):C499)}
+Oct 27, 2015 10:29:14 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 154
+Oct 27, 2015 10:30:19 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1cddb115 realtime
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Faq (-1516244062086103040)} 0 3
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Faq 1 (1516244062150066176), Faq 2 (1516244062150066177), Faq 3 (1516244062150066178)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13,filenames=[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _a.fdt, _a_Lucene41_0.pos, _a.si, _b.nvd, _a.fdx, _b.si, _9.cfs, _a_Lucene41_0.tip, _b.nvm, _b.fnm, _a.nvm, _a.fnm, _b_Lucene41_0.tip, _9.cfe, _b.fdx, _a.nvd, _b_Lucene41_0.pos, _b.fdt, segments_d, _b_Lucene41_0.doc, _b_Lucene41_0.tim, _9.si]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14,filenames=[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _a.fdt, _c.cfs, _a_Lucene41_0.pos, _a.si, _b.nvd, _a.fdx, _c.si, _b.si, _a_Lucene41_0.tip, _b.nvm, _b.fnm, _a.nvm, _a.fnm, _b_Lucene41_0.tip, _b.fdx, _a.nvd, _b_Lucene41_0.pos, _b.fdt, segments_e, _c.cfe, _b_Lucene41_0.doc, _b_Lucene41_0.tim]
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 14[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _a.fdt, _c.cfs, _a_Lucene41_0.pos, _a.si, _b.nvd, _a.fdx, _c.si, _b.si, _a_Lucene41_0.tip, _b.nvm, _b.fnm, _a.nvm, _a.fnm, _b_Lucene41_0.tip, _b.fdx, _a.nvd, _b_Lucene41_0.pos, _b.fdt, segments_e, _c.cfe, _b_Lucene41_0.doc, _b_Lucene41_0.tim]
+Oct 27, 2015 10:30:19 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@757836f4 main
+Oct 27, 2015 10:30:19 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:30:19 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@757836f4 main{StandardDirectoryReader(segments_e:47:nrt _a(4.2):C499 _b(4.2):C499 _c(4.2):c3)}
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 73
+Oct 27, 2015 10:30:19 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@39cd651 realtime
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Spec (-1516244062231855104)} 0 11
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 1 (1516244062276943872), Spec 2 (1516244062276943873), Spec 3 (1516244062276943874), Spec 4 (1516244062276943875), Spec 5 (1516244062276943876), Spec 6 (1516244062276943877), Spec 7 (1516244062276943878), Spec 8 (1516244062276943879), Spec 9 (1516244062276943880), Spec 10 (1516244062277992448), ... (50 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 51 (1516244062295818240), Spec 52 (1516244062295818241), Spec 53 (1516244062295818242), Spec 54 (1516244062295818243), Spec 55 (1516244062295818244), Spec 56 (1516244062295818245), Spec 57 (1516244062295818246), Spec 58 (1516244062295818247), Spec 59 (1516244062295818248), Spec 60 (1516244062295818249), ... (50 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 101 (1516244062319935488), Spec 102 (1516244062319935489), Spec 103 (1516244062319935490), Spec 104 (1516244062319935491), Spec 105 (1516244062319935492), Spec 106 (1516244062319935493), Spec 107 (1516244062319935494), Spec 108 (1516244062319935495), Spec 109 (1516244062319935496), Spec 110 (1516244062319935497), ... (50 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 151 (1516244062348247040), Spec 152 (1516244062349295616), Spec 153 (1516244062349295617), Spec 154 (1516244062349295618), Spec 155 (1516244062349295619), Spec 156 (1516244062349295620), Spec 157 (1516244062349295621), Spec 158 (1516244062349295622), Spec 159 (1516244062349295623), Spec 160 (1516244062349295624), ... (50 adds)]} 0 14
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 201 (1516244062384947200), Spec 202 (1516244062384947201), Spec 203 (1516244062384947202), Spec 204 (1516244062384947203), Spec 205 (1516244062384947204), Spec 206 (1516244062384947205), Spec 207 (1516244062384947206), Spec 208 (1516244062384947207), Spec 209 (1516244062384947208), Spec 210 (1516244062384947209), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 251 (1516244062403821568), Spec 252 (1516244062403821569), Spec 253 (1516244062403821570), Spec 254 (1516244062403821571), Spec 255 (1516244062403821572), Spec 256 (1516244062403821573), Spec 257 (1516244062403821574), Spec 258 (1516244062403821575), Spec 259 (1516244062403821576), Spec 260 (1516244062403821577), ... (50 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 301 (1516244062417453056), Spec 302 (1516244062418501632), Spec 303 (1516244062418501633), Spec 304 (1516244062418501634), Spec 305 (1516244062418501635), Spec 306 (1516244062418501636), Spec 307 (1516244062418501637), Spec 308 (1516244062418501638), Spec 309 (1516244062418501639), Spec 310 (1516244062418501640), ... (50 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 351 (1516244062432133120), Spec 352 (1516244062432133121), Spec 353 (1516244062432133122), Spec 354 (1516244062432133123), Spec 355 (1516244062432133124), Spec 356 (1516244062432133125), Spec 357 (1516244062432133126), Spec 358 (1516244062432133127), Spec 359 (1516244062432133128), Spec 360 (1516244062432133129), ... (50 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 401 (1516244062446813184), Spec 402 (1516244062446813185), Spec 403 (1516244062446813186), Spec 404 (1516244062446813187), Spec 405 (1516244062446813188), Spec 406 (1516244062446813189), Spec 407 (1516244062446813190), Spec 408 (1516244062446813191), Spec 409 (1516244062446813192), Spec 410 (1516244062446813193), ... (50 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[Spec 451 (1516244062461493248), Spec 452 (1516244062461493249), Spec 453 (1516244062461493250), Spec 454 (1516244062461493251), Spec 455 (1516244062461493252), Spec 456 (1516244062461493253), Spec 457 (1516244062461493254), Spec 458 (1516244062461493255), Spec 459 (1516244062461493256), Spec 460 (1516244062461493257), ... (49 adds)]} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14,filenames=[_a_Lucene41_0.doc, _a_Lucene41_0.tim, _a.fdt, _c.cfs, _a_Lucene41_0.pos, _a.si, _b.nvd, _a.fdx, _c.si, _b.si, _a_Lucene41_0.tip, _b.nvm, _b.fnm, _a.nvm, _a.fnm, _b_Lucene41_0.tip, _b.fdx, _a.nvd, _b_Lucene41_0.pos, _b.fdt, segments_e, _c.cfe, _b_Lucene41_0.doc, _b_Lucene41_0.tim]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_f,generation=15,filenames=[_c.cfs, _d.fdx, _b.nvd, _d.nvd, _c.si, _d.nvm, _d.fnm, _b.si, _b.nvm, _b.fnm, _b_Lucene41_0.tip, _d.si, _b.fdx, _d_Lucene41_0.tim, _d.fdt, _b_Lucene41_0.pos, _d_Lucene41_0.tip, segments_f, _b.fdt, _d_Lucene41_0.pos, _c.cfe, _b_Lucene41_0.doc, _b_Lucene41_0.tim, _d_Lucene41_0.doc]
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 15[_c.cfs, _d.fdx, _b.nvd, _d.nvd, _c.si, _d.nvm, _d.fnm, _b.si, _b.nvm, _b.fnm, _b_Lucene41_0.tip, _d.si, _b.fdx, _d_Lucene41_0.tim, _d.fdt, _b_Lucene41_0.pos, _d_Lucene41_0.tip, segments_f, _b.fdt, _d_Lucene41_0.pos, _c.cfe, _b_Lucene41_0.doc, _b_Lucene41_0.tim, _d_Lucene41_0.doc]
+Oct 27, 2015 10:30:19 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1620c7d0 main
+Oct 27, 2015 10:30:19 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:30:19 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@1620c7d0 main{StandardDirectoryReader(segments_f:51:nrt _b(4.2):C499 _c(4.2):c3 _d(4.2):C499)}
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 74
+Oct 27, 2015 10:30:19 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@6866febf realtime
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:User (-1516244062545379328)} 0 2
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 2 (1516244062564253696), User 3 (1516244062564253697), User 4 (1516244062564253698), User 5 (1516244062564253699), User 6 (1516244062564253700), User 7 (1516244062564253701), User 8 (1516244062564253702), User 9 (1516244062564253703), User 10 (1516244062564253704), User 11 (1516244062564253705), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 52 (1516244062578933760), User 53 (1516244062578933761), User 54 (1516244062578933762), User 55 (1516244062578933763), User 56 (1516244062578933764), User 57 (1516244062578933765), User 58 (1516244062578933766), User 59 (1516244062578933767), User 60 (1516244062578933768), User 61 (1516244062578933769), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 102 (1516244062589419520), User 103 (1516244062589419521), User 104 (1516244062589419522), User 105 (1516244062589419523), User 106 (1516244062589419524), User 107 (1516244062589419525), User 108 (1516244062589419526), User 109 (1516244062589419527), User 110 (1516244062589419528), User 111 (1516244062589419529), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 152 (1516244062598856704), User 153 (1516244062598856705), User 154 (1516244062598856706), User 155 (1516244062598856707), User 156 (1516244062598856708), User 157 (1516244062598856709), User 158 (1516244062598856710), User 159 (1516244062598856711), User 160 (1516244062598856712), User 161 (1516244062598856713), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 202 (1516244062608293888), User 203 (1516244062608293889), User 204 (1516244062608293890), User 205 (1516244062608293891), User 206 (1516244062609342464), User 207 (1516244062609342465), User 208 (1516244062609342466), User 209 (1516244062609342467), User 210 (1516244062609342468), User 211 (1516244062609342469), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 252 (1516244062619828224), User 253 (1516244062619828225), User 254 (1516244062619828226), User 255 (1516244062619828227), User 256 (1516244062619828228), User 257 (1516244062619828229), User 258 (1516244062619828230), User 259 (1516244062619828231), User 260 (1516244062620876800), User 261 (1516244062620876801), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 302 (1516244062630313984), User 303 (1516244062630313985), User 304 (1516244062630313986), User 305 (1516244062630313987), User 306 (1516244062630313988), User 307 (1516244062630313989), User 308 (1516244062630313990), User 309 (1516244062630313991), User 310 (1516244062630313992), User 311 (1516244062630313993), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 352 (1516244062639751168), User 353 (1516244062639751169), User 354 (1516244062639751170), User 355 (1516244062639751171), User 356 (1516244062639751172), User 357 (1516244062639751173), User 358 (1516244062639751174), User 359 (1516244062639751175), User 360 (1516244062639751176), User 361 (1516244062639751177), ... (50 adds)]} 0 0
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 402 (1516244062649188352), User 403 (1516244062649188353), User 404 (1516244062649188354), User 405 (1516244062649188355), User 406 (1516244062649188356), User 407 (1516244062649188357), User 408 (1516244062649188358), User 409 (1516244062649188359), User 410 (1516244062649188360), User 411 (1516244062649188361), ... (50 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {add=[User 452 (1516244062658625536), User 453 (1516244062658625537), User 454 (1516244062658625538), User 455 (1516244062658625539), User 456 (1516244062658625540), User 457 (1516244062658625541), User 458 (1516244062658625542), User 459 (1516244062658625543), User 460 (1516244062658625544), User 461 (1516244062658625545), ... (49 adds)]} 0 1
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_f,generation=15,filenames=[_c.cfs, _d.fdx, _b.nvd, _d.nvd, _c.si, _d.nvm, _d.fnm, _b.si, _b.nvm, _b.fnm, _b_Lucene41_0.tip, _d.si, _b.fdx, _d_Lucene41_0.tim, _d.fdt, _b_Lucene41_0.pos, _d_Lucene41_0.tip, segments_f, _b.fdt, _d_Lucene41_0.pos, _c.cfe, _b_Lucene41_0.doc, _b_Lucene41_0.tim, _d_Lucene41_0.doc]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/cdondi/Documents/rails code/tutorial/rails_space/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@49073f4b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_g,generation=16,filenames=[_c.cfs, _d.fdx, _d.nvd, _c.si, _d.nvm, _d.fnm, _e_Lucene41_0.tip, _e.fdt, _e_Lucene41_0.doc, _e_Lucene41_0.tim, _e.fdx, _e_Lucene41_0.pos, segments_g, _e.nvd, _d.si, _e.si, _d_Lucene41_0.tim, _d.fdt, _d_Lucene41_0.tip, _d_Lucene41_0.pos, _c.cfe, _d_Lucene41_0.doc, _e.nvm, _e.fnm]
+Oct 27, 2015 10:30:19 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 16[_c.cfs, _d.fdx, _d.nvd, _c.si, _d.nvm, _d.fnm, _e_Lucene41_0.tip, _e.fdt, _e_Lucene41_0.doc, _e_Lucene41_0.tim, _e.fdx, _e_Lucene41_0.pos, segments_g, _e.nvd, _d.si, _e.si, _d_Lucene41_0.tim, _d.fdt, _d_Lucene41_0.tip, _d_Lucene41_0.pos, _c.cfe, _d_Lucene41_0.doc, _e.nvm, _e.fnm]
+Oct 27, 2015 10:30:19 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@3da13d0e main
+Oct 27, 2015 10:30:19 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Oct 27, 2015 10:30:19 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Oct 27, 2015 10:30:20 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: example
+Oct 27, 2015 10:30:20 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@3da13d0e main{StandardDirectoryReader(segments_g:55:nrt _c(4.2):c3 _d(4.2):C499 _e(4.2):C499)}
+Oct 27, 2015 10:30:20 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 72
+Oct 27, 2015 10:30:40 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:30:40 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=46 status=0 QTime=1 
+Oct 27, 2015 10:30:40 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:30:44 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:30:44 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=46 status=0 QTime=0 
+Oct 27, 2015 10:30:44 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=NY&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:30:53 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:30:53 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:30:53 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:32:54 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:32:54 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:32:54 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:33:20 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:33:20 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:33:20 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:33:22 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:33:22 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:33:22 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Bar&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:33:28 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=j&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:33:28 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=j&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=29 status=0 QTime=1 
+Oct 27, 2015 10:33:28 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=j&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:34:04 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sa&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:34:04 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sa&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:34:04 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=Sa&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:34:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:User&rows=30&wt=ruby} hits=499 status=0 QTime=1 
+Oct 27, 2015 10:34:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Spec&rows=30&wt=ruby} hits=499 status=0 QTime=0 
+Oct 27, 2015 10:34:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Faq&rows=30&wt=ruby} hits=3 status=0 QTime=1 
+Oct 27, 2015 10:34:19 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:User&rows=30&wt=ruby} hits=499 status=0 QTime=0 
+Oct 27, 2015 10:34:19 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Spec&rows=30&wt=ruby} hits=499 status=0 QTime=1 
+Oct 27, 2015 10:34:19 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Faq&rows=30&wt=ruby} hits=3 status=0 QTime=1 
+Oct 27, 2015 10:34:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=qw&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:34:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=qw&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:34:43 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=qw&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:34:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:34:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:34:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:44:59 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:44:59 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=1 status=0 QTime=0 
+Oct 27, 2015 10:44:59 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:45:13 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:45:13 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=1 status=0 QTime=1 
+Oct 27, 2015 10:45:13 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:45:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=0 
+Oct 27, 2015 10:45:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=1 status=0 QTime=0 
+Oct 27, 2015 10:45:48 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:51:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=screen_name_text&fl=*+score&start=0&fq=type:User&rows=30&wt=ruby} hits=0 status=0 QTime=1 
+Oct 27, 2015 10:51:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=last_name_text+occupation_text+city_text+state_text+first_name_text&fl=*+score&start=0&fq=type:Spec&rows=30&wt=ruby} hits=1 status=0 QTime=0 
+Oct 27, 2015 10:51:08 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/select params={q=q&defType=edismax&qf=bio_text+skills_text+schools_text+companies_text+music_text+movies_text+television_text+magazines_text+books_text&fl=*+score&start=0&fq=type:Faq&rows=30&wt=ruby} hits=0 status=0 QTime=1 

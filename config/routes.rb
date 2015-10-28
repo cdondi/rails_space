@@ -49,6 +49,7 @@ Rails.application.routes.draw do
 
   get 'profile/:screen_name' => 'profile#show', as: :profile
   get 'community/index/:id' => "community#index"
+  get 'community/' => "community#index"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

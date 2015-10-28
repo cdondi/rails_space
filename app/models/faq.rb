@@ -1,5 +1,10 @@
 class Faq < ActiveRecord::Base
   belongs_to :user
+  #acts_as_ferret
+
+  searchable do
+    text :bio, :skills, :schools, :companies, :music, :movies, :television, :magazines, :books
+  end
 
   QUESTIONS = %w(bio skills schools companies music movies television books magazines)
   # A constant for everything except the bio

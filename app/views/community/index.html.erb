@@ -9,4 +9,8 @@
 
   <%= render :partial => "user_table" %>
 
+  <% if @initial.nil? %>
+    <%= render :partial => "search_form" %>
+  <% end %>
+
 </fieldset>

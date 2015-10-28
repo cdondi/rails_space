@@ -1,0 +1,975 @@
+# Logfile created on 2015-10-22 22:51:35 -0500 by logger.rb/47272
+I, [2015-10-22T22:51:35.812250 #29573]  INFO -- : Will use local index.
+I, [2015-10-22T22:51:35.812262 #29574]  INFO -- : Will use local index.
+I, [2015-10-22T23:08:28.100957 #29739]  INFO -- : Will use local index.
+I, [2015-10-22T23:08:28.100984 #29738]  INFO -- : Will use local index.
+I, [2015-10-22T23:08:37.092088 #29756]  INFO -- : Will use local index.
+I, [2015-10-22T23:08:37.092103 #29755]  INFO -- : Will use local index.
+I, [2015-10-22T23:08:42.431724 #29762]  INFO -- : Will use local index.
+I, [2015-10-22T23:09:54.614527 #29775]  INFO -- : Will use local index.
+D, [2015-10-22T23:10:18.256782 #29775] DEBUG -- : using index in ./index/development/user
+D, [2015-10-22T23:10:18.256909 #29775] DEBUG -- : [user] rebuild index with models: []
+D, [2015-10-22T23:10:18.260181 #29775] DEBUG -- : [user] reopening index at ./index/development/user
+I, [2015-10-22T23:10:18.260353 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:10:18.260427 #29775]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+I, [2015-10-22T23:11:37.889989 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:11:37.890049 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:12:28.018254 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:12:28.018305 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:14:33.922891 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:14:33.937723 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:15:26.378861 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:15:26.378915 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:16:41.506349 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:16:41.506399 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:18:08.016865 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:18:08.016919 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:18:18.977161 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:18:18.977218 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:18:27.704757 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:18:27.704825 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:20:51.739158 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:20:51.739213 #29775]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-22T23:25:15.098867 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:25:15.098922 #29775]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-22T23:25:48.899484 #29775] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-22T23:25:48.899584 #29775] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-22T23:26:26.228431 #29775] DEBUG -- : using index in ./index/development/faq
+D, [2015-10-22T23:26:26.228615 #29775] DEBUG -- : [faq] rebuild index with models: []
+I, [2015-10-22T23:28:15.059777 #29775]  INFO -- : [user] register class User with index user
+I, [2015-10-22T23:28:15.059832 #29775]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-22T23:28:30.657762 #29775] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-22T23:28:30.657928 #29775] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-22T23:29:01.013117 #29775] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-22T23:29:01.013227 #29775] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-22T23:31:44.443333 #30084]  INFO -- : Will use local index.
+I, [2015-10-22T23:32:34.414129 #30102]  INFO -- : Will use local index.
+I, [2015-10-22T23:39:59.523005 #30145]  INFO -- : Will use local index.
+I, [2015-10-23T00:06:04.858385 #940]  INFO -- : Will use local index.
+I, [2015-10-23T00:06:04.858398 #899]  INFO -- : Will use local index.
+I, [2015-10-23T00:07:01.913544 #1240]  INFO -- : Will use local index.
+D, [2015-10-23T00:07:09.635347 #899] DEBUG -- : using index in ./index/development/user
+I, [2015-10-23T00:07:09.635445 #899]  INFO -- : [user] register class User with index user
+I, [2015-10-23T00:07:09.635498 #899]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-23T00:07:29.553879 #899] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:07:29.553991 #899] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-23T00:11:58.195052 #899] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:11:58.195154 #899] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T00:13:20.199197 #1410]  INFO -- : Will use local index.
+D, [2015-10-23T00:13:38.593901 #1410] DEBUG -- : using index in ./index/development/user
+I, [2015-10-23T00:13:38.594007 #1410]  INFO -- : [user] register class User with index user
+I, [2015-10-23T00:13:38.594070 #1410]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-23T00:13:38.626128 #1410] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:13:38.626247 #1410] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-23T00:14:35.769875 #1410] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:14:35.769973 #1410] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-23T00:14:45.397244 #1410] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:14:45.397334 #1410] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T00:30:09.849437 #1470]  INFO -- : Will use local index.
+D, [2015-10-23T00:30:34.352102 #1470] DEBUG -- : using index in ./index/development/user
+I, [2015-10-23T00:30:34.352240 #1470]  INFO -- : [user] register class User with index user
+I, [2015-10-23T00:30:34.352315 #1470]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-23T00:30:34.385826 #1470] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:30:34.385967 #1470] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T00:35:42.061304 #1488]  INFO -- : Will use local index.
+I, [2015-10-23T00:36:45.416543 #1470]  INFO -- : [user] register class User with index user
+I, [2015-10-23T00:36:45.416604 #1470]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-23T00:36:45.432810 #1470] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:36:45.432935 #1470] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-23T00:36:50.409132 #1470] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:36:50.409240 #1470] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T00:38:22.181527 #1491]  INFO -- : Will use local index.
+D, [2015-10-23T00:40:14.229721 #1491] DEBUG -- : using index in ./index/development/user
+I, [2015-10-23T00:40:14.229855 #1491]  INFO -- : [user] register class User with index user
+I, [2015-10-23T00:40:14.229939 #1491]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-23T00:40:14.246254 #1491] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:40:14.246372 #1491] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-23T00:40:22.445669 #1491] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T00:40:22.445795 #1491] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T01:00:22.932173 #1660]  INFO -- : Will use local index.
+I, [2015-10-23T15:22:13.268802 #4233]  INFO -- : Will use local index.
+I, [2015-10-23T15:30:39.579481 #4359]  INFO -- : Will use local index.
+I, [2015-10-23T15:32:15.120949 #4391]  INFO -- : Will use local index.
+I, [2015-10-23T15:35:53.568881 #4420]  INFO -- : Will use local index.
+I, [2015-10-23T15:36:59.014242 #4436]  INFO -- : Will use local index.
+D, [2015-10-23T15:37:04.954875 #4436] DEBUG -- : using index in ./index/development/user
+I, [2015-10-23T15:37:04.955022 #4436]  INFO -- : [user] register class User with index user
+I, [2015-10-23T15:37:04.955110 #4436]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-23T15:37:19.248740 #4436] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T15:37:19.248855 #4436] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T15:40:25.482180 #4436]  INFO -- : [user] register class User with index user
+I, [2015-10-23T15:40:25.482244 #4436]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T15:41:04.259032 #4436]  INFO -- : [user] register class User with index user
+I, [2015-10-23T15:41:04.259093 #4436]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-23T15:41:04.274236 #4436] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T15:41:04.274344 #4436] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-23T15:41:37.338704 #4436] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T15:41:37.338819 #4436] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T15:44:49.148469 #4457]  INFO -- : Will use local index.
+I, [2015-10-23T15:44:58.623001 #4460]  INFO -- : Will use local index.
+I, [2015-10-23T15:45:21.434431 #4462]  INFO -- : Will use local index.
+D, [2015-10-23T15:45:41.287405 #4462] DEBUG -- : using index in ./index/development/user
+I, [2015-10-23T15:45:41.287523 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T15:45:41.287623 #4462]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-23T15:45:41.314426 #4462] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T15:45:41.314550 #4462] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T15:52:55.823032 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T15:52:55.823089 #4462]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-23T15:52:55.839489 #4462] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T15:52:55.839626 #4462] DEBUG -- : [spec] rebuild index with models: []
+I, [2015-10-23T15:54:33.429559 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T15:54:33.429633 #4462]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-23T15:54:33.437379 #4462] DEBUG -- : using index in ./index/development/spec
+D, [2015-10-23T15:54:33.437505 #4462] DEBUG -- : [spec] rebuild index with models: []
+D, [2015-10-23T15:54:33.440614 #4462] DEBUG -- : [spec] reopening index at ./index/development/spec
+I, [2015-10-23T15:54:33.440796 #4462]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-23T15:54:33.440887 #4462]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+I, [2015-10-23T15:56:41.660422 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T15:56:41.660481 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:02:02.364838 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:02:02.364927 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:02:02.372960 #4462]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-23T16:02:02.373016 #4462]  INFO -- : [spec] refusing re-registration of class Spec
+I, [2015-10-23T16:06:41.711602 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:06:41.711661 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:06:41.719562 #4462]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-23T16:06:41.719622 #4462]  INFO -- : [spec] refusing re-registration of class Spec
+I, [2015-10-23T16:07:50.282498 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:07:50.282559 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:07:50.290682 #4462]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-23T16:07:50.290769 #4462]  INFO -- : [spec] refusing re-registration of class Spec
+I, [2015-10-23T16:08:09.059656 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:08:09.059735 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:08:09.067978 #4462]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-23T16:08:09.068060 #4462]  INFO -- : [spec] refusing re-registration of class Spec
+I, [2015-10-23T16:09:08.427151 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:09:08.427206 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:09:19.269751 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:09:19.269808 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:26:20.596337 #4874]  INFO -- : Will use local index.
+I, [2015-10-23T16:26:29.885386 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:26:29.885444 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:27:35.621062 #4911]  INFO -- : Will use local index.
+I, [2015-10-23T16:27:48.549284 #4920]  INFO -- : Will use local index.
+I, [2015-10-23T16:29:31.192238 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:29:31.192309 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:29:51.725865 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:29:51.725972 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:30:03.651028 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:30:03.651090 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:35:57.928388 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:35:57.928477 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:41:19.941447 #4462]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:41:19.941511 #4462]  INFO -- : [user] refusing re-registration of class User
+I, [2015-10-23T16:41:49.821364 #4971]  INFO -- : Will use local index.
+D, [2015-10-23T16:42:06.467204 #4971] DEBUG -- : using index in ./index/development/user
+I, [2015-10-23T16:42:06.467323 #4971]  INFO -- : [user] register class User with index user
+I, [2015-10-23T16:42:06.467386 #4971]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-23T16:42:06.478951 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-23T16:42:06.479022 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-23T16:42:06.479075 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-23T16:42:06.490295 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-23T16:42:06.490455 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-23T16:42:06.490636 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-23T16:42:06.490663 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-23T16:42:06.502320 #4971] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-23T16:42:06.502429 #4971]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-23T16:42:06.502511 #4971]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+D, [2015-10-23T16:42:06.508297 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-23T16:42:06.508363 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-23T16:42:06.508421 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-23T16:42:06.529035 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-23T16:42:06.529176 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-23T16:42:06.529212 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-23T16:42:06.529265 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:15:43.108461 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-24T12:15:43.108526 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:15:43.108580 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-24T12:15:43.108727 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-24T12:15:43.108792 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-24T12:15:43.108824 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-24T12:15:43.108852 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:15:43.109083 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-24T12:15:43.109116 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:15:43.109150 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-24T12:15:43.109291 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-24T12:15:43.109378 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-24T12:15:43.109398 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-24T12:15:43.109413 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:16:42.002577 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-24T12:16:42.002628 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:16:42.002668 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-24T12:16:42.002812 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-24T12:16:42.002875 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-24T12:16:42.002908 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-24T12:16:42.002933 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:16:42.003150 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-24T12:16:42.003183 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:16:42.003218 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-24T12:16:42.003354 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-24T12:16:42.003440 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-24T12:16:42.003471 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-24T12:16:42.003487 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:14.052895 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-24T12:17:14.052972 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:14.053030 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-24T12:17:14.053174 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-24T12:17:14.053249 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:14.053272 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-24T12:17:14.053298 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:14.053510 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-24T12:17:14.053542 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:14.053580 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-24T12:17:14.053715 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-24T12:17:14.053803 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:14.053823 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-24T12:17:14.053850 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:38.015662 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-24T12:17:38.015712 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:38.015770 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-24T12:17:38.015905 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-24T12:17:38.015969 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:38.016002 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-24T12:17:38.016028 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:38.016287 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-24T12:17:38.016320 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:38.016355 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-24T12:17:38.016494 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-24T12:17:38.016578 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:38.016598 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-24T12:17:38.016613 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:40.649424 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-24T12:17:40.649488 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:40.649538 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-24T12:17:40.649654 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-24T12:17:40.649728 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:40.649761 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-24T12:17:40.649779 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:40.649953 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-24T12:17:40.650004 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:40.650030 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-24T12:17:40.650174 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-24T12:17:40.650274 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:40.650310 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-24T12:17:40.650335 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:44.890300 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-24T12:17:44.890359 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:44.890391 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-24T12:17:44.890503 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-24T12:17:44.890562 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:44.890588 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-24T12:17:44.890607 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-24T12:17:44.890780 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-24T12:17:44.890816 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-24T12:17:44.890841 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-24T12:17:44.890955 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-24T12:17:44.891021 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-24T12:17:44.891044 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-24T12:17:44.891061 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:00:49.861901 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:00:49.861972 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:00:49.862025 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:00:49.862184 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-25T15:00:49.862273 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:00:49.862300 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:00:49.862320 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:00:49.862532 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:00:49.862574 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:00:49.862603 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:00:49.862811 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-25T15:00:49.862898 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:00:49.862935 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:00:49.862956 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:00:53.087990 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:00:53.088043 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:00:53.088084 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:00:53.088211 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-25T15:00:53.088304 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:00:53.088333 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:00:53.088352 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:00:53.088549 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:00:53.088800 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:00:53.088830 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:00:53.088956 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-25T15:00:53.089030 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:00:53.089056 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:00:53.089077 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:00:53.956556 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:00:53.956628 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:00:53.956665 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:00:53.956807 #4971] DEBUG -- : [user] query: n
+-->+(screen_name:n email:n) +(class_name:User)
+D, [2015-10-25T15:00:53.956927 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:00:53.956954 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:00:53.956974 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:00:53.957228 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:00:53.957269 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:00:53.957297 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:00:53.957433 #4971] DEBUG -- : [spec] query: n
+-->+(first_name:n last_name:n occupation:n city:n state:n zip_code:n gender:n birthdate:n) +(class_name:Spec)
+D, [2015-10-25T15:00:53.957510 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:00:53.957535 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:00:53.957553 #4971] DEBUG -- : Query: n
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:01:00.861727 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:01:00.861793 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:01:00.861824 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:01:00.861952 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:01:00.862027 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:01:00.862075 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:01:00.862095 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:01:00.862342 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:01:00.862379 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:01:00.862405 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:01:00.862523 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:01:00.862587 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:01:00.862641 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:01:00.862659 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:01:41.699210 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:01:41.699288 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:01:41.699319 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:01:41.699497 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:01:41.699560 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:01:41.699603 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:01:41.699622 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:01:41.700161 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:01:41.700266 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:01:41.700300 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:01:41.700485 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:01:41.700632 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:01:41.700665 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:01:41.700685 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:01:44.242751 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:01:44.242830 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:01:44.242865 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:01:44.243024 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:01:44.243113 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:01:44.243156 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:01:44.243206 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:01:44.243437 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:01:44.243500 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:01:44.243555 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:01:44.244038 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:01:44.244152 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:01:44.244182 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:01:44.244202 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:02:00.451866 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:02:00.451917 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:02:00.451958 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:02:00.452094 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:02:00.452186 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:02:00.452211 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:02:00.452229 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:02:00.452408 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:02:00.452545 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:02:00.452573 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:02:00.452694 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:02:00.452763 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:02:00.452787 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:02:00.452805 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:02:02.926771 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:02:02.926822 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:02:02.926865 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:02:02.927000 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:02:02.927079 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:02:02.927103 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:02:02.927129 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:02:02.927317 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:02:02.927483 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:02:02.927508 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:02:02.927639 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:02:02.927723 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:02:02.927747 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:02:02.927764 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:02:23.323213 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:02:23.323266 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:02:23.323345 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:02:23.323484 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:02:23.323549 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:02:23.323582 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:02:23.323609 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:02:23.323804 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:02:23.323837 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:02:23.323881 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:02:23.324013 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:02:23.324097 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:02:23.324118 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:02:23.324145 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:10.086573 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:04:10.086628 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:10.086669 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:04:10.086820 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:04:10.086886 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:10.086919 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:04:10.086946 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:10.087139 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:04:10.087172 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:10.087208 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:04:10.087344 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:04:10.087423 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:10.087447 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:04:10.087465 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:11.290728 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:04:11.290783 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:11.290844 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:04:11.291098 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:04:11.291169 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:11.291196 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:04:11.291214 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:11.291391 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:04:11.291445 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:11.291474 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:04:11.291601 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:04:11.291674 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:11.291697 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:04:11.291715 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:11.953586 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:04:11.953641 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:11.953703 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:04:11.953840 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:04:11.953916 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:11.953949 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:04:11.953967 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:11.954246 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:04:11.954300 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:11.954327 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:04:11.954454 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:04:11.954578 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:11.954612 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:04:11.954636 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:32.205882 #4971] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:04:32.205936 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:32.205978 #4971] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:04:32.206122 #4971] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:04:32.206202 #4971] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:32.206226 #4971] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:04:32.206253 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:04:32.206470 #4971] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:04:32.206504 #4971] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:04:32.206548 #4971] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:04:32.206681 #4971] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:04:32.206766 #4971] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:04:32.206786 #4971] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:04:32.206801 #4971] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-25T15:04:33.986270 #5480]  INFO -- : Will use local index.
+I, [2015-10-25T15:05:38.811926 #5488]  INFO -- : Will use local index.
+D, [2015-10-25T15:05:52.721978 #5488] DEBUG -- : using index in ./index/development/user
+I, [2015-10-25T15:05:52.722244 #5488]  INFO -- : [user] register class User with index user
+I, [2015-10-25T15:05:52.722435 #5488]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-25T15:05:53.139394 #5488] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-25T15:05:53.139529 #5488]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-25T15:05:53.139644 #5488]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+D, [2015-10-25T15:21:57.790075 #5488] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:21:57.790409 #5488] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:21:57.790684 #5488] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:21:57.825254 #5488] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:21:57.825592 #5488] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:21:57.825737 #5488] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:21:57.825866 #5488] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-25T15:22:24.301681 #5488] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:22:24.301928 #5488] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:22:24.302111 #5488] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:22:24.318921 #5488] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:22:24.319226 #5488] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:22:24.319387 #5488] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:22:24.319634 #5488] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-25T15:24:30.681389 #5488]  INFO -- : [user] register class User with index user
+I, [2015-10-25T15:24:30.681620 #5488]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-25T15:24:30.859620 #5488] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-25T15:24:30.859907 #5488] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:24:30.860149 #5488] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-25T15:24:30.860654 #5488] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-25T15:24:30.860914 #5488] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-25T15:24:30.861078 #5488] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-25T15:24:30.861226 #5488] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-25T15:24:30.904726 #5488]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-25T15:24:30.904930 #5488]  INFO -- : [spec] refusing re-registration of class Spec
+D, [2015-10-25T15:24:30.918020 #5488] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-25T15:24:30.918235 #5488] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-25T15:24:30.918437 #5488] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-25T15:24:30.918795 #5488] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-25T15:24:30.919029 #5488] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-25T15:24:30.919158 #5488] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-25T15:24:30.919281 #5488] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-27T20:37:26.862415 #8840]  INFO -- : Will use local index.
+I, [2015-10-27T20:38:48.956643 #8846]  INFO -- : Will use local index.
+I, [2015-10-27T20:41:05.368501 #8855]  INFO -- : Will use local index.
+I, [2015-10-27T20:42:23.633372 #8873]  INFO -- : Will use local index.
+D, [2015-10-27T20:42:38.938090 #8873] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T20:42:38.938388 #8873]  INFO -- : [user] register class User with index user
+I, [2015-10-27T20:42:38.938596 #8873]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-27T20:42:50.475233 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:42:50.475467 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:42:50.475653 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:42:50.556665 #8873] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-27T20:42:50.557058 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:42:50.557232 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:42:50.557373 #8873] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:42:50.589941 #8873] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-27T20:42:50.590277 #8873]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T20:42:50.590570 #8873]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+D, [2015-10-27T20:42:50.602890 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:42:50.603088 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:42:50.603261 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:42:50.639548 #8873] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-27T20:42:50.639923 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:42:50.640099 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:42:50.640255 #8873] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-27T20:43:12.194134 #8877]  INFO -- : Will use local index.
+D, [2015-10-27T20:45:36.942399 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:45:36.942612 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:45:36.942790 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:45:36.943123 #8873] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-27T20:45:36.943335 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:45:36.943471 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:45:36.943602 #8873] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:45:36.944595 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:45:36.944784 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:45:36.944953 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:45:36.945333 #8873] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-27T20:45:36.945644 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:45:36.945787 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:45:36.945915 #8873] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-27T20:46:34.400494 #8873]  INFO -- : [user] register class User with index user
+I, [2015-10-27T20:46:34.400671 #8873]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-27T20:46:34.413310 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:46:34.413489 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:46:34.413658 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:46:34.413995 #8873] DEBUG -- : [user] query: h
+-->+(screen_name:h email:h) +(class_name:User)
+D, [2015-10-27T20:46:34.414184 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:46:34.414308 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:46:34.414427 #8873] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-27T20:46:34.418641 #8873]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T20:46:34.418780 #8873]  INFO -- : [spec] refusing re-registration of class Spec
+D, [2015-10-27T20:46:34.430259 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:46:34.430467 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:46:34.430635 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:46:34.430996 #8873] DEBUG -- : [spec] query: h
+-->+(first_name:h last_name:h occupation:h city:h state:h zip_code:h gender:h birthdate:h) +(class_name:Spec)
+D, [2015-10-27T20:46:34.431219 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:46:34.431369 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:46:34.431492 #8873] DEBUG -- : Query: h
+total hits: 0, results delivered: 0
+I, [2015-10-27T20:46:45.299678 #8931]  INFO -- : Will use local index.
+I, [2015-10-27T20:47:38.584536 #8935]  INFO -- : Will use local index.
+D, [2015-10-27T20:49:26.332327 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:49:26.332539 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:49:26.332893 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:49:26.333256 #8873] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T20:49:26.333482 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:49:26.333607 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:49:26.333726 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:49:26.334787 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:49:26.336064 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:49:26.336269 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:49:26.336715 #8873] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T20:49:26.336971 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:49:26.337102 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:49:26.337228 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:49:39.946864 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:49:39.947052 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:49:39.947237 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:49:39.947598 #8873] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T20:49:39.947800 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:49:39.947934 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:49:39.948064 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:49:39.949045 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:49:39.949221 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:49:39.949384 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:49:39.949703 #8873] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T20:49:39.949911 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:49:39.950076 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:49:39.950206 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:50:21.546260 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:50:21.546435 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:50:21.546626 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:50:21.546936 #8873] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T20:50:21.547130 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:50:21.547258 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:50:21.547401 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:50:21.548360 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:50:21.548547 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:50:21.548709 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:50:21.549036 #8873] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T20:50:21.549300 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:50:21.549525 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:50:21.549739 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:51:19.145661 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:51:19.145851 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:51:19.146023 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:51:19.146339 #8873] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T20:51:19.146845 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:51:19.146976 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:51:19.147100 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:51:19.148054 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:51:19.148221 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:51:19.148380 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:51:19.148703 #8873] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T20:51:19.148924 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:51:19.149044 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:51:19.149159 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:51:43.501678 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:51:43.501847 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:51:43.502010 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:51:43.502321 #8873] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T20:51:43.502508 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:51:43.502631 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:51:43.502747 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:51:43.503903 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:51:43.504065 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:51:43.504220 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:51:43.504533 #8873] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T20:51:43.504732 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:51:43.504854 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:51:43.504971 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:52:36.516316 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:52:36.516604 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:52:36.516898 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:52:36.517538 #8873] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T20:52:36.517816 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:52:36.517941 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:52:36.518054 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:52:36.519370 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:52:36.519539 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:52:36.519696 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:52:36.520029 #8873] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T20:52:36.520234 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:52:36.520351 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:52:36.520466 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:53:00.799583 #8873] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T20:53:00.799786 #8873] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T20:53:00.799945 #8873] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T20:53:00.800259 #8873] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T20:53:00.800466 #8873] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T20:53:00.800581 #8873] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T20:53:00.800689 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T20:53:00.801574 #8873] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T20:53:00.801727 #8873] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T20:53:00.801876 #8873] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T20:53:00.802178 #8873] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T20:53:00.802377 #8873] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T20:53:00.802495 #8873] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T20:53:00.802609 #8873] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+I, [2015-10-27T20:54:06.389344 #8953]  INFO -- : Will use local index.
+D, [2015-10-27T20:54:35.243567 #8953] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T20:54:35.243833 #8953]  INFO -- : [user] register class User with index user
+I, [2015-10-27T20:54:35.244058 #8953]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+I, [2015-10-27T20:59:25.559265 #8960]  INFO -- : Will use local index.
+D, [2015-10-27T20:59:38.854764 #8960] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T20:59:38.855073 #8960]  INFO -- : [user] register class User with index user
+I, [2015-10-27T20:59:38.855282 #8960]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+I, [2015-10-27T21:00:39.291695 #8962]  INFO -- : Will use local index.
+D, [2015-10-27T21:00:50.785120 #8962] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T21:00:50.785389 #8962]  INFO -- : [user] register class User with index user
+I, [2015-10-27T21:00:50.785605 #8962]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+I, [2015-10-27T21:02:09.254190 #8964]  INFO -- : Will use local index.
+D, [2015-10-27T21:02:15.148412 #8964] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T21:02:15.148691 #8964]  INFO -- : [user] register class User with index user
+I, [2015-10-27T21:02:15.148892 #8964]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-27T21:02:15.168522 #8964] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T21:02:15.168728 #8964] DEBUG -- : options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+D, [2015-10-27T21:02:15.168919 #8964] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T21:02:15.170688 #8964] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T21:02:15.170949 #8964] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T21:02:15.171087 #8964] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T21:02:15.171214 #8964] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T21:02:15.188371 #8964] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-27T21:02:15.188674 #8964]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T21:02:15.188963 #8964]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+D, [2015-10-27T21:02:15.200432 #8964] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T21:02:15.200673 #8964] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T21:02:15.200852 #8964] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T21:02:15.202371 #8964] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T21:02:15.202632 #8964] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T21:02:15.202787 #8964] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T21:02:15.202917 #8964] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+I, [2015-10-27T21:03:05.136211 #8964]  INFO -- : [user] register class User with index user
+I, [2015-10-27T21:03:05.136373 #8964]  INFO -- : [user] refusing re-registration of class User
+D, [2015-10-27T21:03:05.147865 #8964] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T21:03:05.148086 #8964] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T21:03:05.148279 #8964] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T21:03:05.148657 #8964] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T21:03:05.148998 #8964] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T21:03:05.149187 #8964] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T21:03:05.149330 #8964] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+I, [2015-10-27T21:03:05.153327 #8964]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T21:03:05.153487 #8964]  INFO -- : [spec] refusing re-registration of class Spec
+D, [2015-10-27T21:03:05.163952 #8964] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T21:03:05.164146 #8964] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T21:03:05.164318 #8964] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T21:03:05.164668 #8964] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T21:03:05.164888 #8964] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T21:03:05.165021 #8964] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T21:03:05.165159 #8964] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+I, [2015-10-27T21:04:25.965085 #8978]  INFO -- : Will use local index.
+D, [2015-10-27T21:04:32.674913 #8978] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T21:04:32.675185 #8978]  INFO -- : [user] register class User with index user
+I, [2015-10-27T21:04:32.675408 #8978]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-27T21:04:32.701699 #8978] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-27T21:04:32.702004 #8978]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T21:04:32.702297 #8978]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+I, [2015-10-27T21:04:47.667639 #8979]  INFO -- : Will use local index.
+I, [2015-10-27T21:04:57.275280 #8981]  INFO -- : Will use local index.
+I, [2015-10-27T21:05:31.711967 #8983]  INFO -- : Will use local index.
+I, [2015-10-27T21:06:12.458621 #8993]  INFO -- : Will use local index.
+I, [2015-10-27T21:06:51.380015 #8995]  INFO -- : Will use local index.
+D, [2015-10-27T21:06:58.912074 #8995] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T21:06:58.912394 #8995]  INFO -- : [user] register class User with index user
+I, [2015-10-27T21:06:58.912589 #8995]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-27T21:06:58.938683 #8995] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-27T21:06:58.938989 #8995]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T21:06:58.939268 #8995]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+I, [2015-10-27T21:17:24.285452 #9044]  INFO -- : Will use local index.
+D, [2015-10-27T21:17:35.131245 #9044] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T21:17:35.131529 #9044]  INFO -- : [user] register class User with index user
+I, [2015-10-27T21:17:35.131723 #9044]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-27T21:17:35.204732 #9044] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T21:17:35.204938 #9044] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T21:17:35.205131 #9044] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T21:17:35.216303 #9044] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T21:17:35.216583 #9044] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T21:17:35.216722 #9044] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T21:17:35.216846 #9044] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T21:17:35.249763 #9044] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-27T21:17:35.250060 #9044]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T21:17:35.250342 #9044]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+D, [2015-10-27T21:17:35.262127 #9044] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T21:17:35.262355 #9044] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T21:17:35.262525 #9044] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T21:17:35.277538 #9044] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T21:17:35.277827 #9044] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T21:17:35.277986 #9044] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T21:17:35.278115 #9044] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+I, [2015-10-27T21:19:28.238851 #9052]  INFO -- : Will use local index.
+D, [2015-10-27T21:19:35.562183 #9052] DEBUG -- : using index in ./index/development/user
+I, [2015-10-27T21:19:35.562496 #9052]  INFO -- : [user] register class User with index user
+I, [2015-10-27T21:19:35.562768 #9052]  INFO -- : [user] default field list for index user: ["screen_name", "email"]
+D, [2015-10-27T21:19:35.585514 #9052] DEBUG -- : index_for [User(id: integer, screen_name: string, email: string, password: string, created_at: datetime, updated_at: datetime, authorization_token: string)]
+D, [2015-10-27T21:19:35.585698 #9052] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T21:19:35.585869 #9052] DEBUG -- : [user] stored_fields: nil
+D, [2015-10-27T21:19:35.587384 #9052] DEBUG -- : [user] query: Da
+-->+(screen_name:da email:da) +(class_name:User)
+D, [2015-10-27T21:19:35.587659 #9052] DEBUG -- : [user] now retrieving records from AR with options: {}
+D, [2015-10-27T21:19:35.587793 #9052] DEBUG -- : [user] 0 results from AR: []
+D, [2015-10-27T21:19:35.587918 #9052] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+D, [2015-10-27T21:19:35.593875 #9052] DEBUG -- : using index in ./index/development/spec
+I, [2015-10-27T21:19:35.594162 #9052]  INFO -- : [spec] register class Spec with index spec
+I, [2015-10-27T21:19:35.594460 #9052]  INFO -- : [spec] default field list for index spec: [:first_name, :last_name, :occupation, :city, :state, :zip_code, :gender, :birthdate]
+D, [2015-10-27T21:19:35.606829 #9052] DEBUG -- : index_for [Spec(id: integer, user_id: integer, first_name: string, last_name: string, occupation: string, city: string, state: string, zip_code: string, gender: string, birthdate: date, created_at: datetime, updated_at: datetime)]
+D, [2015-10-27T21:19:35.607016 #9052] DEBUG -- : options: {:limit=>:all, :page=>nil, :offset=>0}
+ar_options: {}
+D, [2015-10-27T21:19:35.607181 #9052] DEBUG -- : [spec] stored_fields: nil
+D, [2015-10-27T21:19:35.608452 #9052] DEBUG -- : [spec] query: Da
+-->+(first_name:da last_name:da occupation:da city:da state:da zip_code:da gender:da birthdate:da) +(class_name:Spec)
+D, [2015-10-27T21:19:35.608696 #9052] DEBUG -- : [spec] now retrieving records from AR with options: {}
+D, [2015-10-27T21:19:35.608828 #9052] DEBUG -- : [spec] 0 results from AR: []
+D, [2015-10-27T21:19:35.608986 #9052] DEBUG -- : Query: Da
+total hits: 0, results delivered: 0
+I, [2015-10-27T21:19:53.197313 #9054]  INFO -- : Will use local index.

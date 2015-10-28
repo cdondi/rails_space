@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Install ferret for full-text searches
+
+gem 'sunspot_rails'
+
 # provides pagination functionality for large result sets
 gem 'will_paginate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -39,6 +43,10 @@ gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  #sunspot_solr is the pre-packaged development version of Solr,
+  # So you need to make sure you place the sunspot_solr into :development group in your Gemfile.
+  gem 'sunspot_solr'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'

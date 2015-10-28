@@ -1,6 +1,10 @@
 class Spec < ActiveRecord::Base
   belongs_to :user
 
+  searchable do
+    text :last_name, :occupation, :city, :state, :first_name
+  end
+
   ALL_FIELDS = %w(first_name last_name occupation gender birthdate city state zip_code)
   STRING_FIELDS = %w(first_name last_name occupation city state)
   VALID_GENDERS = ['Male', 'Female']
