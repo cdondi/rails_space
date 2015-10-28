@@ -102,4 +102,8 @@ class User < ActiveRecord::Base
   def name
     spec.full_name.presence || screen_name
   end
+
+  def avatar
+    Avatar.new(self)
+  end
 end

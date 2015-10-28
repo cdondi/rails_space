@@ -2,7 +2,7 @@ require 'digest/sha1'
 
 class UserController < ApplicationController
   include ApplicationHelper
-  helper :profile
+  helper :profile, :avatar
   before_filter :protect, :only => [:index, :edit]
 
   def index

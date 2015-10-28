@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'avatar/index'
+
+  get 'avatar/upload'
+
+  get 'avatar/delete'
+
   get 'community/index'
 
   get 'community/browse'
@@ -43,6 +49,7 @@ Rails.application.routes.draw do
   post 'user/edit'
   post 'spec/edit'
   post 'faq/edit'
+  post 'avatar/upload'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
