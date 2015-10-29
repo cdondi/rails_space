@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'email/remind'
+
   get 'avatar/index'
 
   get 'avatar/upload'
@@ -50,6 +52,7 @@ Rails.application.routes.draw do
   post 'spec/edit'
   post 'faq/edit'
   post 'avatar/upload'
+  post 'email/remind'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
