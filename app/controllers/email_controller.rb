@@ -4,8 +4,9 @@ class EmailController < ApplicationController
     if param_posted?(:user)
       email = params[:user][:email]
       user = User.find_by_email(email)
+      @user = user
       if user
-        UserMailer.deliver_reminder(user)
+        UserMailer.reminder(user).deliver_now
         flash[:notice] = "Login information was sent."
         redirect_to :action => "index", :controller => "site"
       else

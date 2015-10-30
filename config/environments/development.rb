@@ -37,8 +37,24 @@ Rails.application.configure do
   config.assets.raise_runtime_errors = true
 
   # Raises error for missing translations
-  # config.action_view.raise_on_missing_translations = true
+  # config.action_view.raise_on_missing_translations = dtrue
+
+  config.action_mailer.delivery_method = :smtp
+
+  config.action_mailer.smtp_settings = {
+      :address => "smtp.live.com",
+      :port => 587,
+      :user_name => Figaro.env.email_addr,
+      :password => Figaro.env.email_pass,
+      :authentication => "plain",
+      :enable_starttls_auto => true
+  }
+
+
+  config.action_mailer.perform_deliveries = true
 
   # Raise errors if the mailer can't send
   config.action_mailer.raise_delivery_errors = true
+
+
 end

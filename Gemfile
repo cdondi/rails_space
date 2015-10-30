@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Install ferret for full-text searches
 
 gem 'sunspot_rails'
+gem 'figaro'
 
 # provides pagination functionality for large result sets
 gem 'will_paginate'
