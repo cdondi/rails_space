@@ -1,0 +1,23 @@
+<%= form_for :message do |form| %>
+    <fieldset>
+      <legend><%= @title %></legend>
+
+      <% if @message && @message.errors.any? %>
+          <ul>
+            <% @message.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+      <% end %>
+
+      <div class="form_row">
+        <label for="subject">Subject:</label>
+        <%= form.text_field "subject", :size => 60 %>
+      </div>
+      <div class="form_row">
+        <label for="subject">Body:</label>
+        <%= form.text_area "body", :rows => 20, :cols => 60 %>
+      </div>
+      <%= submit_tag "Send", :class => "submit" %>
+    </fieldset>
+<% end %>

@@ -27,3 +27,19 @@ invalid_user_spec:
   screen_name: millikan2
   email: ram2@example.com
   password: electron
+
+  friend:
+  id: 4
+  screen_name: amigo
+  email: ami@example.com
+  password: Freund
+  # Create 10 users so that searches can invoke pagination.
+  <% (1..10).each do |i| %>
+  user_<%= i %>:
+  id: <%= i + 4 %>
+  screen_name: user_<%= i %>
+  email: user_<%= i %>@example.com
+  password: foobar
+  <% end %>
+  .
+  .

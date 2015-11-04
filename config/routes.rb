@@ -1,24 +1,15 @@
 Rails.application.routes.draw do
   get 'email/remind'
-
+  get 'email/correspond'
   get 'avatar/index'
-
   get 'avatar/upload'
-
   get 'avatar/delete'
-
   get 'community/index'
-
   get 'community/browse'
-
   get 'community/search'
-
   get 'faq/index'
-
   get 'faq/edit'
-
   get 'spec/index'
-
   get 'spec/edit'
 
   #get 'profile/:screen_name', :controller => 'profile', :action => 'show'
@@ -53,10 +44,13 @@ Rails.application.routes.draw do
   post 'faq/edit'
   post 'avatar/upload'
   post 'email/remind'
+  post 'email/correspond'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
+  post 'correspond/:id' => 'profile#show'
+  get 'correspond/:id' => 'profile#show'
   get 'profile/:screen_name' => 'profile#show', as: :profile
   get 'community/index/:id' => "community#index"
   get 'community/' => "community#index"
@@ -68,16 +62,16 @@ Rails.application.routes.draw do
   #   resources :products
 
   # Example resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
+     resources :user do
+       member do
+         #get 'correspond'
+         post 'correspond'
+       end
   #
   #     collection do
   #       get 'sold'
   #     end
-  #   end
+     end
 
   # Example resource route with sub-resources:
   #   resources :products do
