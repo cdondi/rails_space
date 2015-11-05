@@ -1,6 +1,19 @@
 class User < ActiveRecord::Base
   has_one :spec
   has_one :faq
+  has_many :friendships
+  has_many :friends, -> { where(friendships: { status: "accepted"}) },
+           :through => :friendships,
+           :foreign_key => :user_id
+
+  has_many :requested_friends, -> { where(friendships: { status: "requested"}) },
+           :through => :friendships,
+           :source => :friend
+
+  has_many :pending_friends, -> { where(friendships: { status: "pending"}) },
+           :through => :friendships,
+           :source => :friend
+
   attr_accessor :remember_me
   attr_accessor :current_password
   attr_accessor :password_confirmation

@@ -13,11 +13,10 @@
           <%= friendship_status(@logged_in_user, @user) %>
           <% unless Friendship.exists?(@logged_in_user, @user) %>
               <br />
-              <% if false %>
+
               <%= link_to "Request friendship with #{@user.name}",
                           { :controller => "friendship", :action => "create",
                             :id => @user.screen_name }, :confirm => "Send friend request to #{@user.name}?" %>
-                  <% end %>
           <% end %>
         </li>
       </ul>

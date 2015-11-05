@@ -6,8 +6,8 @@ class Avatar < ActiveRecord::Base
   require 'fileutils'
   # Image directories
 
-  URL_STUB = "avatars"
-  DIRECTORY = File.join("images", "avatars")
+  URL_STUB = "/images/avatars"
+  DIRECTORY = File.join("public", "images", "avatars")
 
   def self.columns
     @columns ||= [];
@@ -21,7 +21,8 @@ class Avatar < ActiveRecord::Base
   def initialize(user, image = nil)
     @user = user
     @image = image
-    FileUtils::mkdir_p DIRECTORY unless File.directory?(DIRECTORY)
+    #FileUtils::mkdir_p DIRECTORY unless File.directory?(DIRECTORY)
+    Dir.mkdir(DIRECTORY) unless File.directory?(DIRECTORY)
   end
 
   def exists?
@@ -34,9 +35,7 @@ class Avatar < ActiveRecord::Base
     "#{URL_STUB}/#{filename}"
   end
 
-  def thumbnail_url
-    "#{URL_STUB}/#{thumbnail_name}"
-  end
+
 
   def save
     successful_conversion?
@@ -48,6 +47,12 @@ class Avatar < ActiveRecord::Base
       image = "#{DIRECTORY}/#{name}"
       File.delete(image) if File.exists?(image)
     end
+  end
+
+  # TODO - Find out why default_thumbnail.jpg doesn't show ups
+  def thumbnail_url
+    exists? ? "#{URL_STUB}/#{thumbnail_name}" : "default_thumbnail.jpg"
+    #"#{URL_STUB}/#{thumb}"
   end
 
   private

@@ -30546,3 +30546,367 @@ ProfileControllerTest: test_should_get_show
   [1m[35m (1.5ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
   [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
   [1m[35m (0.3ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (48.2ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:08:58', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:08:58', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:08:58', '2015-11-04 18:08:58', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:08:58', '2015-11-04 18:08:58')[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `friend`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+Mysql::Error: Unknown column 'friend' in 'field list': INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `friend`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `faqs`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 847123571)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `friendships`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:08:58', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:08:58', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `specs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 46361080)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:08:58', '2015-11-04 18:08:58', 842872504)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 767896646)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:08:58', '2015-11-04 18:08:58')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `users`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:08:58', '2015-11-04 18:08:58')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `friend`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:08:58', '2015-11-04 18:08:58')[0m
+Mysql::Error: Unknown column 'friend' in 'field list': INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `friend`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:08:58', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:08:58', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:08:58', '2015-11-04 18:08:58', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:08:58', '2015-11-04 18:08:58', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:08:58', '2015-11-04 18:08:58')[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `friend`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+Mysql::Error: Unknown column 'friend' in 'field list': INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `friend`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:08:58', '2015-11-04 18:08:58')
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:10:42', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:10:42', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:10:42', '2015-11-04 18:10:42', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 767896646)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:10:42', '2015-11-04 18:10:42')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `users` (`friend`, `id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (NULL, 14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:10:42', '2015-11-04 18:10:42')[0m
+Mysql::Error: Unknown column 'friend' in 'field list': INSERT INTO `users` (`friend`, `id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (NULL, 14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.0ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:10:42', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:10:42', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:10:42', '2015-11-04 18:10:42', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:10:42', '2015-11-04 18:10:42')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `users` (`friend`, `id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (NULL, 14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:10:42', '2015-11-04 18:10:42')[0m
+Mysql::Error: Unknown column 'friend' in 'field list': INSERT INTO `users` (`friend`, `id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (NULL, 14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:10:42', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:10:42', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:10:42', '2015-11-04 18:10:42', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:10:42', '2015-11-04 18:10:42', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:10:42', '2015-11-04 18:10:42')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `users` (`friend`, `id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (NULL, 14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:10:42', '2015-11-04 18:10:42')[0m
+Mysql::Error: Unknown column 'friend' in 'field list': INSERT INTO `users` (`friend`, `id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (NULL, 14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:10:42', '2015-11-04 18:10:42')
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 847123571)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:12:37', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:12:37', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:12:37', '2015-11-04 18:12:37', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:12:37', '2015-11-04 18:12:37')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:12:37', '2015-11-04 18:12:37')[0m
+Mysql::Error: Unknown column 'user_1' in 'field list': INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:12:37', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:12:37', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:12:37', '2015-11-04 18:12:37', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:12:37', '2015-11-04 18:12:37')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:12:37', '2015-11-04 18:12:37')[0m
+Mysql::Error: Unknown column 'user_1' in 'field list': INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:12:37', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:12:37', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:12:37', '2015-11-04 18:12:37', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:12:37', '2015-11-04 18:12:37', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:12:37', '2015-11-04 18:12:37')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:12:37', '2015-11-04 18:12:37')[0m
+Mysql::Error: Unknown column 'user_1' in 'field list': INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `user_1`, `user_2`, `user_3`, `user_4`, `user_5`, `user_6`, `user_7`, `user_8`, `user_9`, `user_10`, `created_at`, `updated_at`) VALUES (14, 'user_10', 'user_10@example.com', 'foobar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2015-11-04 18:12:37', '2015-11-04 18:12:37')
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-04 18:13:16', '2015-11-04 18:13:16', 847123571)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:13:16', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-04 18:13:16', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-04 18:13:16', '2015-11-04 18:13:16', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-04 18:13:16', '2015-11-04 18:13:16', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-04 18:13:16', '2015-11-04 18:13:16', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-04 18:13:16', '2015-11-04 18:13:16')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-04 18:13:16', '2015-11-04 18:13:16')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-04 18:13:16', '2015-11-04 18:13:16')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-04 18:13:16', '2015-11-04 18:13:16')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (4, 'amigo', 'ami@example.com', 'Freund', '2015-11-04 18:13:16', '2015-11-04 18:13:16')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+---------------------------------
+FriendshipTest: test_test_breakup
+---------------------------------
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 4]]
+  [1m[36mFriendship Load (0.2ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["friend_id", 4], ["status", "pending"], ["created_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)  [["user_id", 4], ["friend_id", 1], ["status", "requested"], ["created_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFriendship Load (0.2ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35mFriendship Load (0.2ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`id` = ? LIMIT 1  [["id", 980190963]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `friendships` WHERE `friendships`.`id` = ?[0m  [["id", 980190963]]
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 4], ["friend_id", 1]]
+  [1m[36mFriendship Load (0.1ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`id` = ? LIMIT 1[0m  [["id", 980190964]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM `friendships` WHERE `friendships`.`id` = ?  [["id", 980190964]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 1], ["friend_id", 4]]
+  [1m[36m (30.7ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+--------------------------------
+FriendshipTest: test_test_accept
+--------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 4]]
+  [1m[36mFriendship Load (0.2ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["friend_id", 4], ["status", "pending"], ["created_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)  [["user_id", 4], ["friend_id", 1], ["status", "requested"], ["created_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFriendship Load (0.1ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE `friendships` SET `status` = ?, `accepted_at` = ?, `updated_at` = ? WHERE `friendships`.`id` = ?  [["status", "accepted"], ["accepted_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"], ["id", 980190965]]
+  [1m[36mFriendship Load (0.1ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 4], ["friend_id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE `friendships` SET `status` = ?, `accepted_at` = ?, `updated_at` = ? WHERE `friendships`.`id` = ?  [["status", "accepted"], ["accepted_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"], ["id", 980190966]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 1], ["friend_id", 4]]
+  [1m[36mFriendship Load (0.5ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 4], ["friend_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+---------------------------------
+FriendshipTest: test_test_request
+---------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 4]]
+  [1m[36mFriendship Load (0.1ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["friend_id", 4], ["status", "pending"], ["created_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)  [["user_id", 4], ["friend_id", 1], ["status", "requested"], ["created_at", "2015-11-04 18:13:17"], ["updated_at", "2015-11-04 18:13:17"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 1], ["friend_id", 4]]
+  [1m[36mFriendship Load (0.1ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 4], ["friend_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (91.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `faqs`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `faqs` (`user_id`, `bio`, `skills`, `schools`, `companies`, `music`, `movies`, `television`, `books`, `magazines`, `created_at`, `updated_at`, `id`) VALUES (1, 'bio', 'skills', 'school', 'company', 'music', 'movies', 'tv', 'books', 'magazines', '2015-11-05 02:52:13', '2015-11-05 02:52:13', 847123571)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `friendships`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-05 02:52:13', 980190962)
+  [1m[36mFixture Insert (32.2ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `accepted_at`, `updated_at`, `id`) VALUES (1, 1, 'MyString', '2015-10-29 14:50:29', '2015-10-29 14:50:29', '2015-11-05 02:52:13', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `specs`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `specs` (`user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (1, 'Kip', 'Thorne', 'Male', '1940-06-01', 'Feynman Professor of Theoretical Physics', 'Pasadena', 'CA', '91125', '2015-11-05 02:52:13', '2015-11-05 02:52:13', 46361080)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`user_id`, `created_at`, `updated_at`, `id`) VALUES (2, '2015-11-05 02:52:13', '2015-11-05 02:52:13', 842872504)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `specs` (`user_id`, `gender`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES (3, 'Neither', 'Cali', '2015-11-05 02:52:13', '2015-11-05 02:52:13', 767896646)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `specs` (`id`, `user_id`, `first_name`, `last_name`, `gender`, `birthdate`, `occupation`, `city`, `state`, `zip_code`, `created_at`, `updated_at`) VALUES (3, 4, 'Dude', 'Dude', 'Male', '2000-01-01', 'Dude', 'Dude', 'CA', '91125', '2015-11-05 02:52:13', '2015-11-05 02:52:13')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `users`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (1, 'millikan', 'ram@example.com', 'electron', '2015-11-05 02:52:13', '2015-11-05 02:52:13')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (2, 'aa/noyes', 'annoyes@example,com', 'sun', '2015-11-05 02:52:13', '2015-11-05 02:52:13')[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (3, 'millikan2', 'ram2@example.com', 'electron', '2015-11-05 02:52:13', '2015-11-05 02:52:13')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `users` (`id`, `screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (4, 'amigo', 'ami@example.com', 'Freund', '2015-11-05 02:52:13', '2015-11-05 02:52:13')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+------------------------------------------
+FriendshipControllerTest: test_test_create
+------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 4]]
+Processing by FriendshipController#create as HTML
+  Parameters: {"id"=>"amigo"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`screen_name` = ? LIMIT 1  [["screen_name", "amigo"]]
+  [1m[36mFriendship Load (0.2ms)[0m  [1mSELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1[0m  [["user_id", 1], ["friend_id", 4]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["friend_id", 4], ["status", "pending"], ["created_at", "2015-11-05 02:52:13"], ["updated_at", "2015-11-05 02:52:13"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?)  [["user_id", 4], ["friend_id", 1], ["status", "requested"], ["created_at", "2015-11-05 02:52:13"], ["updated_at", "2015-11-05 02:52:13"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSpec Load (0.4ms)[0m  SELECT  `specs`.* FROM `specs` WHERE `specs`.`user_id` = ? LIMIT 1  [["user_id", 4]]
+  [1m[36mSpec Load (0.2ms)[0m  [1mSELECT  `specs`.* FROM `specs` WHERE `specs`.`user_id` = ? LIMIT 1[0m  [["user_id", 1]]
+  Rendered user_mailer/friend_request.html.erb within layouts/mailer (64.7ms)
+
+UserMailer#friend_request: processed outbound mail in 667.6ms
+
+Sent mail to ami@example.com (39.0ms)
+Date: Wed, 04 Nov 2015 20:52:14 -0600
+From: RailsSpace <do-not-reply@railsspace.com>
+To: ami@example.com
+Message-ID: <563ac45e5ce85_2a583fe7fdc60208218f6@Clives-iMac.local.mail>
+Subject: New friend request at RailsSpace.com
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    Hello Dude Dude,
+You have a new RailsSpace friend request from Kip Thorne.
+View Kip Thorne's profile:
+http://test.host/profile/millikan
+Accept: http://test.host/friendship/millikan/accept
+Decline: http://test.host/friendship/millikan/decline
+--The RailsSpace team
+  </body>
+</html>
+
+Redirected to http://test.host/profile/amigo
+Completed 302 Found in 851ms (ActiveRecord: 1.8ms)
+Processing by FriendshipController#accept as HTML
+  Parameters: {"id"=>"millikan"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`screen_name` = ? LIMIT 1[0m  [["screen_name", "millikan"]]
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM `users` INNER JOIN `friendships` ON `users`.`id` = `friendships`.`friend_id` WHERE `friendships`.`user_id` = ? AND `friendships`.`status` = ? AND `users`.`id` = ? LIMIT 1  [["user_id", 4], ["status", "requested"], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 4], ["friend_id", 1]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `friendships` SET `status` = ?, `accepted_at` = ?, `updated_at` = ? WHERE `friendships`.`id` = ?[0m  [["status", "accepted"], ["accepted_at", "2015-11-05 02:52:14"], ["updated_at", "2015-11-05 02:52:14"], ["id", 980190970]]
+  [1m[35mFriendship Load (0.1ms)[0m  SELECT  `friendships`.* FROM `friendships` WHERE `friendships`.`user_id` = ? AND `friendships`.`friend_id` = ? LIMIT 1  [["user_id", 1], ["friend_id", 4]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE `friendships` SET `status` = ?, `accepted_at` = ?, `updated_at` = ? WHERE `friendships`.`id` = ?[0m  [["status", "accepted"], ["accepted_at", "2015-11-05 02:52:14"], ["updated_at", "2015-11-05 02:52:14"], ["id", 980190969]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/user/index
+Completed 302 Found in 110ms (ActiveRecord: 1.4ms)
+  [1m[36m (11.3ms)[0m  [1mROLLBACK[0m

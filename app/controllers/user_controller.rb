@@ -83,6 +83,10 @@ class UserController < ApplicationController
     redirect_to :action => "index", :controller => "site"
   end
 
+  def correspond
+
+  end
+
   def user_params
     params.require(:user).permit(:screen_name, :email, :password, :remember_me)
   end

@@ -24,10 +24,16 @@ class UserMailer < ApplicationMailer
     mail(to: @recipient)
   end
 
-  def friend_request
-    subject 'New friend request at RailsSpace.com'
-    from 'RailsSpace <do-not-reply@railsspace.com>'
-    recipients mail[:friend].email
-    body mail
+  def friend_request(user, friend, user_url, accept_url, decline_url)
+    @user = user
+    @friend = friend
+    subject = 'New friend request at RailsSpace.com'
+    from = 'RailsSpace <do-not-reply@railsspace.com>'
+    recipients = friend.email
+    #body mail
+    @user_url = user_url
+    @accept_url = accept_url
+    @decline_url = decline_url
+    mail(to: recipients, subject: subject, from: from )
   end
 end

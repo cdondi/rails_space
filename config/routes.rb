@@ -49,8 +49,9 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
-  post 'correspond/:id' => 'profile#show'
-  get 'correspond/:id' => 'profile#show'
+  #post 'correspond/:id' => 'profile#show'
+  #get 'correspond/:id' => 'profile#show'
+  get 'friendship/:id/create' => 'friendship#create'
   get 'profile/:screen_name' => 'profile#show', as: :profile
   get 'community/index/:id' => "community#index"
   get 'community/' => "community#index"
@@ -64,14 +65,27 @@ Rails.application.routes.draw do
   # Example resource route with options:
      resources :user do
        member do
-         #get 'correspond'
          post 'correspond'
+         get 'correspond'
        end
   #
   #     collection do
   #       get 'sold'
   #     end
      end
+
+  resources :friendship do
+    member do
+      post 'create'
+      post 'accept'
+      get 'accept'
+      post 'decline'
+      get 'decline'
+      post 'delete'
+      post 'cancel'
+      get 'cancel'
+    end
+  end
 
   # Example resource route with sub-resources:
   #   resources :products do
